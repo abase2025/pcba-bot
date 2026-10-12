@@ -1,10 +1,12 @@
-name: Questões diárias PC-BA (@Meupcba_bot)
+name: Envio diário PC-BA (desativado)
 
+# O envio automático diário foi desligado a pedido: agora as questões só chegam
+# quando você manda "estudo" ao @Meupcba_bot (ver responder.yml).
+# Para religar, devolva o bloco abaixo para dentro de "on:":
+#   schedule:
+#     - cron: "47 9 * * *"   # 06:47 em Salvador
 on:
-  schedule:
-    # 09:47 UTC = 06:47 em Salvador (UTC-3), todos os dias
-    - cron: "47 9 * * *"
-  workflow_dispatch: {}   # botão "Run workflow" para testar na hora
+  workflow_dispatch: {}
 
 permissions:
   contents: write   # para guardar o chat id descoberto em dados/chat_id.txt

@@ -3,7 +3,7 @@
 Atende pedidos feitos no Telegram ao @Meupcba_bot.
 
 Roda a cada 5 minutos (GitHub Actions). Lê as mensagens novas e:
-  • "questões" (ou "questoes", "/questoes") → envia 5 questões que você ainda não recebeu
+  • "estudo" (ou "/estudo") → envia 5 questões que você ainda não recebeu
   • "discursiva" → envia uma discursiva com correção
   • "/start" ou "ajuda" → explica os comandos
 
@@ -19,11 +19,11 @@ import enviar as bot
 POR_PEDIDO = int(os.getenv("QUESTOES_POR_PEDIDO", "5"))
 
 AJUDA = ("🤖 <b>Comandos do @Meupcba_bot</b>\n\n"
-         "• <b>questões</b>: 5 questões inéditas comentadas\n"
+         "• <b>estudo</b>: 5 questões inéditas comentadas\n"
          "• <b>discursiva</b>: uma discursiva com correção\n"
          "• <b>ajuda</b>: esta mensagem\n\n"
          "Respondo em alguns minutos (confiro as mensagens a cada 5 min). "
-         "Todo dia às 06:47 chegam 3 questões automáticas e, aos sábados, uma discursiva.")
+         "Não envio nada sozinho: as questões só chegam quando você pede.")
 
 
 def normalizar(txt):
@@ -33,7 +33,7 @@ def normalizar(txt):
 
 def comando(txt):
     t = normalizar(txt)
-    if "questo" in t or "questao" in t:
+    if "estudo" in t or "estudar" in t:
         return "questoes"
     if "discursiva" in t:
         return "discursiva"
@@ -105,7 +105,11 @@ def main():
     if not pedidos:
         bot.salvar_estado(estado)
         print(f"Nenhum pedido novo ({recebidas} mensagens lidas).")
-        if recebidas:
+        if os.getenv("GITHUB_EVENT_NAME") == "workflow_dispatch":
+            info = bot.api_get(token, "getWebhookInfo").get("result", {})
+            bot.registrar(f"diagnóstico: {recebidas} mensagens lidas; pendentes={info.get('pending_update_count')}; "
+                          f"webhook={'sim' if info.get('url') else 'não'}; chat salvo={'sim' if meu_chat else 'não'}")
+        elif recebidas:
             bot.registrar(f"responder: {recebidas} mensagens lidas, nenhum pedido reconhecido")
         return
 
@@ -127,8 +131,16 @@ def main():
             if aviso:
                 tg.texto(aviso)
             restantes = len(banco) - len(set(estado.get("enviadas", []))) - len(lote)
-            tg.texto(f"📚 <b>{len(lote)} questões inéditas</b> saindo agora! "
-                     f"(ainda restam {max(restantes, 0)} inéditas no banco)")
+            hoje = bot.dt.datetime.now(bot.FUSO_BAHIA).date()
+            faltam = (bot.dt.date.fromisoformat(os.getenv("DATA_PROVA", "2026-12-06")) - hoje).days
+            _, dicas = bot.carregar()
+            n_pacote = estado.get("pacotes", 0) + 1
+            estado["pacotes"] = n_pacote
+            dica = dicas[(n_pacote - 1) % len(dicas)]
+            contagem = f"⏳ Faltam <b>{faltam} dias</b> para a prova.\n\n" if faltam > 0 else ""
+            tg.texto(f"📚 <b>Estudo nº {n_pacote}: {len(lote)} questões inéditas</b> "
+                     f"(restam {max(restantes, 0)} inéditas no banco)\n\n{contagem}"
+                     f"<b>Dica de prova</b>\n{bot.e(dica)}")
             ciclo = estado.get("ciclo", 1)
             for i, q in enumerate(lote, start=1):
                 bot.enviar_questao(tg, i, q, ciclo)

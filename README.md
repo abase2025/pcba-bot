@@ -1,18 +1,19 @@
-# @Meupcba_bot – questões diárias da PC-BA 2026 no Telegram
+# @Meupcba_bot – questões da PC-BA 2026 no Telegram, quando você pede
 
-Todo dia, às 06:47 (horário da Bahia), o bot manda no seu Telegram:
+**O bot só envia quando você pede.** Mande **estudo** para o @Meupcba_bot e ele responde em poucos minutos com 5 questões inéditas. Cada pacote traz:
 
 1. **Abertura**: contagem regressiva para a prova (06/12/2026) e uma dica de estratégia de prova.
-2. **3 questões** no estilo do Instituto AOCP (5 alternativas). Cada uma vem com:
+2. **5 questões** no estilo do Instituto AOCP (5 alternativas). Cada uma vem com:
    - uma **enquete-quiz** para você marcar a resposta e ver na hora se acertou;
    - um **comentário escondido** (toque para revelar) com gabarito, explicação baseada na lei, *como responder* e *como chutar com técnica*.
-3. **Aos sábados**: uma **discursiva da semana**, com enunciado no formato da prova, o que o corretor procura e uma resposta-modelo.
+
+Mande **discursiva** para receber uma discursiva no formato da prova, com o que o corretor procura e uma resposta-modelo.
 
 **Conteúdo**
 - 86 questões objetivas inéditas, com o peso de cada matéria do edital. Inclui Legislação da Bahia (Leis 6.677/94 e 11.370/09, com situações que já caíram em provas anteriores), Atualidades até outubro de 2026, Penal, Processo Penal, Legislação Extravagante, Português, RLM, Informática, Constitucional, Administrativo, Medicina Legal, Igualdade Racial, Estatística, Arquivologia e Contabilidade.
-- 8 discursivas, uma por sábado até a prova.
+- 8 discursivas com padrão de resposta.
 
-**Sob demanda:** mande para o @Meupcba_bot a palavra **questões** e ele envia **5 questões inéditas** (que você ainda não recebeu). Também entende **discursiva** e **ajuda**. O bot confere as mensagens a cada 5 minutos, então a resposta chega em cerca de 5 a 15 minutos.
+**Comandos:** **estudo** envia 5 questões inéditas (que você ainda não recebeu); **discursiva** envia uma discursiva com correção; **ajuda** lista os comandos. O bot confere as mensagens a cada 5 minutos, então a resposta chega em cerca de 5 a 15 minutos. O envio automático diário está desligado.
 
 Quando o banco acaba, ele recomeça como **ciclo de revisão**, com as alternativas embaralhadas.
 
