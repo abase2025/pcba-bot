@@ -309,5 +309,36 @@ def main():
     print(f"Dia {dia}: {len(lote)} questões enviadas" + (f" + discursiva ({disc['tema']})." if disc and not args.dia else "."))
 
 
+ARQ_STATUS = BASE / "dados" / "ultima_execucao.txt"
+
+
+def registrar(status):
+    """Grava o resultado da execução (sem token) para diagnóstico."""
+    agora = dt.datetime.now(FUSO_BAHIA).strftime("%d/%m/%Y %H:%M")
+    linha = f"{agora} | {status}\n"
+    try:
+        ARQ_STATUS.write_text(linha, encoding="utf-8")
+        resumo = os.getenv("GITHUB_STEP_SUMMARY")
+        if resumo:
+            with open(resumo, "a", encoding="utf-8") as f:
+                f.write(f"### Resultado\n\n{linha}\n")
+    except OSError:
+        pass
+
+
 if __name__ == "__main__":
-    main()
+    if "--simular" in sys.argv:
+        main()
+    else:
+        try:
+            main()
+            registrar("OK")
+        except SystemExit as fim:
+            if fim.code not in (None, 0):
+                registrar(f"ERRO: {fim.code}")
+            else:
+                registrar("OK")
+            raise
+        except Exception as erro:  # noqa: BLE001
+            registrar(f"ERRO inesperado: {type(erro).__name__}: {erro}")
+            raise

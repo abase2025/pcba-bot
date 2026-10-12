@@ -27,13 +27,13 @@ jobs:
           DATA_INICIO: ${{ vars.DATA_INICIO || '2026-10-12' }}
           DATA_PROVA: "2026-12-06"
         run: python enviar.py
-      - name: Guardar chat id descoberto
+      - name: Guardar chat id e resultado da execução
         if: always()
         run: |
-          if [ -n "$(git status --porcelain dados/chat_id.txt)" ]; then
+          git add -A dados/chat_id.txt dados/ultima_execucao.txt 2>/dev/null || true
+          if [ -n "$(git status --porcelain dados)" ]; then
             git config user.name "pcba-bot"
             git config user.email "pcba-bot@users.noreply.github.com"
-            git add dados/chat_id.txt
-            git commit -m "Salva chat id do @Meupcba_bot"
+            git commit -m "Registro da execução do @Meupcba_bot"
             git push
           fi
