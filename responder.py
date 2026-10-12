@@ -85,6 +85,7 @@ def main():
     offset = estado.get("offset", 0)
     dados = bot.api_get(token, f"getUpdates?offset={offset}&timeout=0&allowed_updates=%5B%22message%22%5D")
     pedidos = []
+    recebidas = len(dados.get("result", []))
     for upd in dados.get("result", []):
         offset = max(offset, upd["update_id"] + 1)
         msg = upd.get("message") or {}
@@ -103,7 +104,9 @@ def main():
 
     if not pedidos:
         bot.salvar_estado(estado)
-        print("Nenhum pedido novo.")
+        print(f"Nenhum pedido novo ({recebidas} mensagens lidas).")
+        if recebidas:
+            bot.registrar(f"responder: {recebidas} mensagens lidas, nenhum pedido reconhecido")
         return
 
     tg = bot.Telegram(token, meu_chat)
@@ -133,6 +136,7 @@ def main():
         feitos.append(cmd)
         bot.salvar_estado(estado)
     bot.salvar_estado(estado)
+    bot.registrar(f"responder OK: {recebidas} mensagens lidas; atendidos: {', '.join(feitos)}")
     print("Atendidos:", ", ".join(feitos))
 
 
