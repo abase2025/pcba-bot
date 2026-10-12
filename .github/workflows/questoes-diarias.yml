@@ -30,7 +30,7 @@ jobs:
       - name: Guardar chat id e resultado da execução
         if: always()
         run: |
-          git add -A dados/chat_id.txt dados/ultima_execucao.txt 2>/dev/null || true
+          git add dados
           if [ -n "$(git status --porcelain dados)" ]; then
             git config user.name "pcba-bot"
             git config user.email "pcba-bot@users.noreply.github.com"
