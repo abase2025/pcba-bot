@@ -200,6 +200,33 @@ class Telegram:
         })
 
 
+# ---------------------------------------------------------------- estado (questões já enviadas)
+ARQ_ESTADO = BASE / "dados" / "estado.json"
+
+
+def ler_estado():
+    try:
+        return json.loads(ARQ_ESTADO.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {"enviadas": [], "offset": 0, "ciclo": 1}
+
+
+def salvar_estado(estado):
+    ARQ_ESTADO.write_text(json.dumps(estado, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
+def marcar_enviadas(estado, ids):
+    vistos = set(estado.get("enviadas", []))
+    estado["enviadas"] = estado.get("enviadas", []) + [i for i in ids if i not in vistos]
+
+
+def enviar_questao(tg, n, q, ciclo):
+    alts, gab = embaralhar_alternativas(q, ciclo)
+    tg.texto(msg_questao(n, q, alts))
+    tg.quiz(f"Questão {n} ({q['disciplina']}): qual a sua resposta?", gab, explicacao_enquete(q, gab))
+    tg.texto(msg_comentario(n, q, gab))
+
+
 # ---------------------------------------------------------------- configuração do chat
 ARQ_CHAT = BASE / "dados" / "chat_id.txt"
 
@@ -297,10 +324,11 @@ def main():
 
     tg.texto(msg_abertura(dia, hoje, data_prova, dicas, lote[0][1]))
     for i, (q, ciclo) in enumerate(lote, start=1):
-        alts, gab = embaralhar_alternativas(q, ciclo)
-        tg.texto(msg_questao(i, q, alts))
-        tg.quiz(f"Questão {i} ({q['disciplina']}): qual a sua resposta?", gab, explicacao_enquete(q, gab))
-        tg.texto(msg_comentario(i, q, gab))
+        enviar_questao(tg, i, q, ciclo)
+    if not args.simular:
+        estado = ler_estado()
+        marcar_enviadas(estado, [q["id"] for q, _ in lote])
+        salvar_estado(estado)
 
     disc = discursiva_do_dia(inicio, hoje, int(os.getenv("DIA_DISCURSIVA", "5")), carregar_discursivas())
     if disc and not args.dia:

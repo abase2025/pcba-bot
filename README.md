@@ -12,6 +12,8 @@ Todo dia, às 06:47 (horário da Bahia), o bot manda no seu Telegram:
 - 86 questões objetivas inéditas, com o peso de cada matéria do edital. Inclui Legislação da Bahia (Leis 6.677/94 e 11.370/09, com situações que já caíram em provas anteriores), Atualidades até outubro de 2026, Penal, Processo Penal, Legislação Extravagante, Português, RLM, Informática, Constitucional, Administrativo, Medicina Legal, Igualdade Racial, Estatística, Arquivologia e Contabilidade.
 - 8 discursivas, uma por sábado até a prova.
 
+**Sob demanda:** mande para o @Meupcba_bot a palavra **questões** e ele envia **5 questões inéditas** (que você ainda não recebeu). Também entende **discursiva** e **ajuda**. O bot confere as mensagens a cada 5 minutos, então a resposta chega em cerca de 5 a 15 minutos.
+
 Quando o banco acaba, ele recomeça como **ciclo de revisão**, com as alternativas embaralhadas.
 
 **Você não precisa instalar nada.** O bot roda nos servidores do GitHub (GitHub Actions), de graça.
