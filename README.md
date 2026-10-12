@@ -1,4 +1,4 @@
-# Bot PC-BA 2026 – questões diárias no Telegram
+# @Meupcba_bot – questões diárias da PC-BA 2026 no Telegram
 
 Todo dia, às 06:47 (horário da Bahia), o bot manda no seu Telegram:
 
@@ -18,42 +18,38 @@ Quando o banco acaba, ele recomeça como **ciclo de revisão**, com as alternati
 
 ---
 
-## Passo 1 – Criar o bot no Telegram (2 min)
+## Ativar o @Meupcba_bot (3 passos, sem instalar nada)
 
-1. No Telegram, abra **@BotFather** e mande `/newbot`.
-2. Escolha um nome (ex.: `Meu PC-BA`) e um usuário terminado em `bot` (ex.: `meupcba_questoes_bot`).
-3. Ele responde com um **token** parecido com `7123456789:AAH...`. Guarde: é a senha do bot, não compartilhe.
-4. Abra o seu bot pelo link que o BotFather manda, toque em **Iniciar** e mande um "oi".
+### 1. Fale com o bot
+Abra **https://t.me/Meupcba_bot**, toque em **Iniciar** e mande um "oi".
+É assim que o bot descobre para quem enviar. Você não precisa copiar nenhum número.
 
-## Passo 2 – Descobrir o seu chat id (pelo navegador)
+### 2. Cole o token no GitHub
+Neste repositório: **Settings → Secrets and variables → Actions → New repository secret**
 
-No navegador, abra o endereço abaixo trocando `SEU_TOKEN` pelo token do passo 1:
+- **Name:** `TELEGRAM_TOKEN`
+- **Secret:** o token que o @BotFather enviou quando você criou o @Meupcba_bot (parecido com `7123456789:AAH...`)
 
-`https://api.telegram.org/botSEU_TOKEN/getUpdates`
+Esqueceu o token? No @BotFather, mande `/mybots` → escolha **@Meupcba_bot** → **API Token**.
 
-Procure o trecho `"chat":{"id":123456789`. Esse número é o seu chat id.
-Se aparecer `"result":[]`, mande outro "oi" ao bot e recarregue a página.
+### 3. Teste
+Aba **Actions** → *Questões diárias PC-BA (@Meupcba_bot)* → **Run workflow**.
+Se o GitHub pedir para habilitar o Actions, confirme.
+Em menos de um minuto chega no seu Telegram a mensagem "✅ @Meupcba_bot configurado!", seguida das questões de hoje.
 
-## Passo 3 – Colar os dois dados no GitHub
+Faça o passo 3 em até **24 horas** depois do "oi" do passo 1. O Telegram só guarda as mensagens recentes. Se passar desse prazo, mande outro "oi" e rode de novo.
+Depois do primeiro envio, o bot guarda o seu chat em `dados/chat_id.txt` e, a partir daí, roda sozinho todo dia às 06:47.
 
-No repositório: **Settings → Secrets and variables → Actions → New repository secret**
+### Opcional (aba Variables)
+- `CARGO` = `investigador`, `escrivao` ou `ambos` (padrão: `ambos`)
+- `QUESTOES_POR_DIA` = `3` (pode subir para 5)
+- `DATA_INICIO` = data do primeiro envio, `AAAA-MM-DD` (padrão: `2026-10-12`)
 
-| Name | Secret |
-| --- | --- |
-| `TELEGRAM_TOKEN` | o token do passo 1 |
-| `TELEGRAM_CHAT_ID` | o número do passo 2 |
-
-Opcional, na aba **Variables**:
-- `CARGO` = `investigador`, `escrivao` ou `ambos` (padrão: `ambos`). Investigador recebe Contabilidade; escrivão recebe Arquivologia.
-- `QUESTOES_POR_DIA` = `3` (pode subir para 5).
-- `DATA_INICIO` = data do primeiro envio, no formato `AAAA-MM-DD` (padrão: `2026-10-12`).
-
-## Passo 4 – Testar
-
-Vá na aba **Actions** → *Questões diárias PC-BA* → **Run workflow**. Em menos de um minuto as questões chegam no Telegram.
-Se o GitHub pedir para habilitar o Actions, clique em *I understand… enable*.
-
-Pronto. A partir daí o bot roda sozinho todo dia. Na manhã de 06/12 ele manda a mensagem de boa prova e para.
+### Se algo der errado
+Abra a execução na aba **Actions** e leia a mensagem:
+- *Token inválido*: copie de novo o token no @BotFather e atualize o secret.
+- *Ainda não sei para quem enviar*: mande "oi" ao @Meupcba_bot e rode de novo.
+- *AVISO: este token é do bot @outro*: você colou o token de outro bot.
 
 ---
 

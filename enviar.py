@@ -7,7 +7,10 @@ Sem dependências externas: só Python 3.9+.
 
 Variáveis de ambiente:
   TELEGRAM_TOKEN      token do bot (BotFather)               [obrigatório]
-  TELEGRAM_CHAT_ID    seu chat id (rode descobrir_chat_id.py) [obrigatório]
+  TELEGRAM_CHAT_ID    seu chat id (opcional: se faltar, o bot descobre sozinho
+                      a partir da última mensagem que você mandou ao @Meupcba_bot
+                      e guarda em dados/chat_id.txt)
+  BOT_USUARIO         usuário esperado do bot                 (padrão: Meupcba_bot)
   CARGO               investigador | escrivao | ambos         (padrão: ambos)
   QUESTOES_POR_DIA    quantas questões por dia                (padrão: 3)
   DATA_INICIO         AAAA-MM-DD do 1º envio                  (padrão: 2026-10-12)
@@ -197,6 +200,55 @@ class Telegram:
         })
 
 
+# ---------------------------------------------------------------- configuração do chat
+ARQ_CHAT = BASE / "dados" / "chat_id.txt"
+
+
+def api_get(token, metodo):
+    with urllib.request.urlopen(f"https://api.telegram.org/bot{token}/{metodo}", timeout=30) as r:
+        return json.loads(r.read())
+
+
+def conferir_bot(token, esperado):
+    try:
+        info = api_get(token, "getMe")["result"]
+    except urllib.error.HTTPError as erro:
+        sys.exit(f"Token inválido ({erro.code}). Confira o secret TELEGRAM_TOKEN copiado do @BotFather.")
+    usuario = info.get("username", "")
+    if esperado and usuario.lower() != esperado.lower():
+        print(f"AVISO: este token é do bot @{usuario}, não de @{esperado}.")
+    else:
+        print(f"Bot conferido: @{usuario}")
+
+
+def descobrir_chat(token):
+    """Pega o chat privado mais recente que mandou mensagem ao bot."""
+    chats = []
+    for upd in api_get(token, "getUpdates").get("result", []):
+        msg = upd.get("message") or upd.get("edited_message") or {}
+        chat = msg.get("chat") or {}
+        if chat.get("type") == "private":
+            chats.append(chat["id"])
+    return str(chats[-1]) if chats else ""
+
+
+def resolver_chat_id(token, simular):
+    cid = os.getenv("TELEGRAM_CHAT_ID", "").strip()
+    if cid or simular:
+        return cid
+    if ARQ_CHAT.exists() and ARQ_CHAT.read_text().strip():
+        return ARQ_CHAT.read_text().strip()
+    cid = descobrir_chat(token)
+    if not cid:
+        usuario = os.getenv("BOT_USUARIO", "Meupcba_bot")
+        sys.exit(f"Ainda não sei para quem enviar. Abra https://t.me/{usuario}, toque em Iniciar, "
+                 "mande um 'oi' e rode de novo em até 24 horas.")
+    ARQ_CHAT.write_text(cid + "\n")
+    print(f"Chat descoberto e salvo em dados/chat_id.txt: {cid}")
+    os.environ["PCBA_CHAT_NOVO"] = "1"
+    return cid
+
+
 # ---------------------------------------------------------------- principal
 def main():
     ap = argparse.ArgumentParser()
@@ -205,10 +257,12 @@ def main():
     ap.add_argument("--discursiva", type=int, help="envia só a discursiva de número N (teste)")
     args = ap.parse_args()
 
-    token = os.getenv("TELEGRAM_TOKEN", "")
-    chat_id = os.getenv("TELEGRAM_CHAT_ID", "")
-    if not args.simular and (not token or not chat_id):
-        sys.exit("Defina TELEGRAM_TOKEN e TELEGRAM_CHAT_ID (veja o README).")
+    token = os.getenv("TELEGRAM_TOKEN", "").strip()
+    if not args.simular:
+        if not token:
+            sys.exit("Defina o secret TELEGRAM_TOKEN com o token do @BotFather (veja o README).")
+        conferir_bot(token, os.getenv("BOT_USUARIO", "Meupcba_bot"))
+    chat_id = resolver_chat_id(token, args.simular)
 
     por_dia = int(os.getenv("QUESTOES_POR_DIA", "3"))
     inicio = dt.date.fromisoformat(os.getenv("DATA_INICIO", "2026-10-12"))
@@ -216,6 +270,9 @@ def main():
     hoje = dt.datetime.now(FUSO_BAHIA).date()
 
     tg = Telegram(token, chat_id, simular=args.simular)
+    if os.getenv("PCBA_CHAT_NOVO"):
+        tg.texto("✅ <b>@Meupcba_bot configurado!</b>\n\nA partir de agora você recebe aqui, todo dia às 06:47, "
+                 "3 questões comentadas da PC-BA e, aos sábados, uma discursiva. Bons estudos! 🚔")
 
     if args.discursiva:
         lista = carregar_discursivas()
