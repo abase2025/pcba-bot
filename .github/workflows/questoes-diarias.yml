@@ -1,0 +1,25 @@
+name: Questões diárias PC-BA
+
+on:
+  schedule:
+    # 09:47 UTC = 06:47 em Salvador (UTC-3), todos os dias
+    - cron: "47 9 * * *"
+  workflow_dispatch: {}   # botão "Run workflow" para testar na hora
+
+jobs:
+  enviar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Enviar questões do dia
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          CARGO: ${{ vars.CARGO || 'ambos' }}
+          QUESTOES_POR_DIA: ${{ vars.QUESTOES_POR_DIA || '3' }}
+          DATA_INICIO: ${{ vars.DATA_INICIO || '2026-10-12' }}
+          DATA_PROVA: "2026-12-06"
+        run: python enviar.py

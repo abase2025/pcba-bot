@@ -1,0 +1,1464 @@
+[
+ {
+  "id": 1,
+  "disciplina": "Direito Penal",
+  "cargo": "ambos",
+  "enunciado": "Durante um assalto a uma agência bancária, o criminoso mantém uma cliente como refém, apontando-lhe uma arma. Um investigador de polícia, posicionado no local, efetua um disparo que neutraliza o agressor. À luz do art. 25 do Código Penal, é correto afirmar que o investigador:",
+  "alternativas": [
+   "agiu em estrito cumprimento do dever legal, causa de excludente de culpabilidade.",
+   "agiu em legítima defesa, pois a lei considera em legítima defesa o agente de segurança pública que repele agressão ou risco de agressão a vítima mantida refém durante a prática de crimes.",
+   "não agiu em legítima defesa, pois esta só protege direito próprio, nunca de terceiro.",
+   "agiu em estado de necessidade, já que a agressão humana injusta caracteriza perigo atual.",
+   "responde por homicídio, com pena reduzida de um a dois terços, por ter excedido culposamente os limites da defesa."
+  ],
+  "gabarito": "B",
+  "comentario": "O parágrafo único do art. 25 do CP (incluído pelo Pacote Anticrime, Lei 13.964/2019) diz expressamente que se considera em legítima defesa o agente de segurança pública que repele agressão ou risco de agressão a vítima mantida refém durante a prática de crimes. A legítima defesa protege direito seu OU de outrem (por isso é errado dizer que só protege direito próprio). Agressão humana injusta = legítima defesa, não estado de necessidade (não é estado de necessidade). Estrito cumprimento do dever legal exclui a ilicitude, não a culpabilidade (não exclui a culpabilidade).",
+  "como_resolver": "Agressão HUMANA injusta → legítima defesa. Perigo (fato da natureza, animal, situação) → estado de necessidade. Grave: 'refém + agente de segurança' = art. 25, parágrafo único.",
+  "como_chutar": "A alternativa que repete quase literalmente o texto da lei, com todos os detalhes ('agressão ou risco de agressão', 'durante a prática de crimes'), costuma ser a correta na AOCP, que adora letra de lei. Desconfie de palavras absolutas como 'nunca' ."
+ },
+ {
+  "id": 2,
+  "disciplina": "Direito Penal",
+  "cargo": "ambos",
+  "enunciado": "Sobre a tentativa, a desistência voluntária e o arrependimento eficaz, conforme o Código Penal, assinale a alternativa correta.",
+  "alternativas": [
+   "Na tentativa, salvo disposição em contrário, pune-se com a pena do crime consumado, diminuída de um sexto a um terço.",
+   "Na desistência voluntária, o agente responde pela tentativa do crime que pretendia praticar.",
+   "No arrependimento eficaz, o agente impede que o resultado se produza e só responde pelos atos já praticados.",
+   "O arrependimento posterior é cabível em qualquer crime, inclusive nos cometidos com violência à pessoa, desde que reparado o dano até a sentença.",
+   "A tentativa é punível nos crimes culposos, desde que o resultado não ocorra por circunstâncias alheias à vontade do agente."
+  ],
+  "gabarito": "C",
+  "comentario": "Art. 15 do CP: o agente que desiste voluntariamente de prosseguir na execução ou impede que o resultado se produza (arrependimento eficaz) só responde pelos atos já praticados. A tentativa reduz a pena de UM a DOIS terços (art. 14, parágrafo único). O arrependimento posterior (art. 16) exige crime SEM violência ou grave ameaça e reparação até o RECEBIMENTO da denúncia ou queixa. Crime culposo não admite tentativa.",
+  "como_resolver": "Memorize as frações: tentativa = 1 a 2/3; arrependimento posterior = 1 a 2/3, mas só sem violência e até o recebimento da denúncia. Desistência e arrependimento eficaz = 'ponte de ouro': responde só pelo que já fez.",
+  "como_chutar": "Frações trocadas (1/6 a 1/3) são a pegadinha clássica de lei seca. Se você lembra só de uma fração, elimine as alternativas que a contradizem. 'Qualquer crime, inclusive com violência' é amplo demais: elimine."
+ },
+ {
+  "id": 3,
+  "disciplina": "Direito Penal",
+  "cargo": "ambos",
+  "enunciado": "João subtraiu a carteira de uma pessoa distraída em um ônibus. Ao ser percebido, já com o bem em mãos, empurrou violentamente a vítima para garantir a posse da carteira e fugir. A conduta de João caracteriza:",
+  "alternativas": [
+   "furto simples, pois a violência foi posterior à subtração.",
+   "furto qualificado pela destreza.",
+   "roubo impróprio.",
+   "roubo próprio, pois a violência foi empregada antes da subtração.",
+   "extorsão, pois houve constrangimento mediante violência."
+  ],
+  "gabarito": "C",
+  "comentario": "Art. 157, §1º, do CP: na mesma pena incorre quem, logo depois de subtraída a coisa, emprega violência contra pessoa ou grave ameaça, a fim de assegurar a impunidade do crime ou a detenção da coisa para si ou para terceiro. É o roubo impróprio. No roubo próprio (caput), a violência é meio para a subtração (vem antes ou durante).",
+  "como_resolver": "Pergunte: QUANDO veio a violência? Antes/durante para subtrair → roubo próprio. Depois, para garantir a coisa ou a fuga → roubo impróprio. Extorsão exige que a vítima FAÇA algo (colaboração indispensável).",
+  "como_chutar": "Quando o enunciado detalha a ORDEM dos acontecimentos ('já com o bem em mãos'), a banca está testando o momento da violência. A resposta é a alternativa que usa esse detalhe a favor, não contra."
+ },
+ {
+  "id": 4,
+  "disciplina": "Direito Penal",
+  "cargo": "ambos",
+  "enunciado": "Um servidor público, em razão da função, EXIGE de um comerciante quantia em dinheiro para não lavrar um auto de infração. Essa conduta configura o crime de:",
+  "alternativas": [
+   "corrupção passiva.",
+   "prevaricação.",
+   "advocacia administrativa.",
+   "peculato.",
+   "concussão."
+  ],
+  "gabarito": "E",
+  "comentario": "Concussão (art. 316 do CP): EXIGIR, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, vantagem indevida. Corrupção passiva (art. 317) é SOLICITAR, RECEBER ou ACEITAR promessa. Prevaricação (art. 319) é retardar/deixar de praticar ato para satisfazer interesse ou sentimento pessoal.",
+  "como_resolver": "Decore os verbos: EXIGIR = concussão; SOLICITAR/RECEBER/ACEITAR = corrupção passiva; interesse ou sentimento PESSOAL = prevaricação; apropriar-se/desviar = peculato; patrocinar interesse privado = advocacia administrativa.",
+  "como_chutar": "Em crimes contra a Administração, o verbo do enunciado entrega a resposta. Ache o verbo em maiúsculas/destaque e procure o crime cujo núcleo é exatamente esse verbo."
+ },
+ {
+  "id": 5,
+  "disciplina": "Direito Penal",
+  "cargo": "ambos",
+  "enunciado": "No peculato culposo (art. 312, §3º, do CP), a reparação do dano:",
+  "alternativas": [
+   "é irrelevante para a punibilidade, servindo apenas como atenuante genérica.",
+   "se precede à sentença irrecorrível, extingue a punibilidade; se lhe é posterior, reduz de metade a pena imposta.",
+   "extingue a punibilidade apenas se feita antes do recebimento da denúncia.",
+   "reduz a pena de um a dois terços, em qualquer momento do processo.",
+   "só é admitida se o funcionário não for reincidente."
+  ],
+  "gabarito": "B",
+  "comentario": "Art. 312, §3º, do CP: no caso do §2º (peculato culposo), a reparação do dano, se precede à sentença irrecorrível, extingue a punibilidade; se lhe é posterior, reduz de metade a pena imposta. Atenção: isso vale SÓ para o peculato CULPOSO.",
+  "como_resolver": "Linha do tempo: reparou ANTES do trânsito em julgado → extingue. DEPOIS → pena cai pela metade. Doloso não tem esse benefício.",
+  "como_chutar": "A alternativa com DUAS consequências distintas (antes/depois) é típica de cópia literal de lei. Alternativas que mudam o marco temporal ('recebimento da denúncia') costumam ser misturas com o arrependimento posterior do art. 16."
+ },
+ {
+  "id": 6,
+  "disciplina": "Direito Penal",
+  "cargo": "ambos",
+  "enunciado": "Acerca da imputabilidade penal, assinale a alternativa correta.",
+  "alternativas": [
+   "A emoção e a paixão excluem a imputabilidade quando intensas.",
+   "A embriaguez voluntária completa, pelo álcool, isenta de pena.",
+   "É isento de pena o agente que, por embriaguez completa, proveniente de caso fortuito ou força maior, era, ao tempo da ação, inteiramente incapaz de entender o caráter ilícito do fato.",
+   "Os menores de 21 anos são penalmente inimputáveis.",
+   "A embriaguez preordenada exclui a culpabilidade."
+  ],
+  "gabarito": "C",
+  "comentario": "Art. 28, §1º, do CP: é isento de pena o agente que, por embriaguez completa, proveniente de caso fortuito ou força maior, era, ao tempo da ação ou omissão, inteiramente incapaz de entender o caráter ilícito do fato ou de determinar-se de acordo com esse entendimento. Emoção, paixão e embriaguez voluntária ou culposa NÃO excluem (art. 28, I e II). Menores de 18 são inimputáveis (art. 27). A embriaguez preordenada é agravante (art. 61, II, 'l').",
+  "como_resolver": "Só a embriaguez ACIDENTAL (caso fortuito/força maior) e COMPLETA isenta. Acidental incompleta → reduz de 1 a 2/3. Voluntária/culposa → nada exclui (actio libera in causa).",
+  "como_chutar": "Repare na idade errada (21) – erro grosseiro, elimine logo. Entre as que sobram, a mais longa e técnica, com 'caso fortuito ou força maior', é a que reproduz a lei."
+ },
+ {
+  "id": 7,
+  "disciplina": "Direito Penal",
+  "cargo": "ambos",
+  "enunciado": "Caçador que, em mata fechada, atira no que supõe ser um animal, mas atinge um homem escondido, age em:",
+  "alternativas": [
+   "erro de proibição, que exclui a culpabilidade.",
+   "erro de tipo essencial, que exclui o dolo, permitindo a punição por crime culposo, se previsto em lei e se o erro for evitável.",
+   "erro sobre a pessoa, respondendo como se tivesse atingido a pessoa que pretendia.",
+   "aberratio ictus, respondendo por homicídio doloso.",
+   "descriminante putativa por erro de proibição, sem qualquer responsabilização."
+  ],
+  "gabarito": "B",
+  "comentario": "Art. 20 do CP: o erro sobre elemento constitutivo do tipo legal de crime exclui o dolo, mas permite a punição por crime culposo, se previsto em lei. O caçador não sabia que havia 'alguém' (elemento do tipo de homicídio). Se o erro era inevitável, exclui também a culpa; se evitável, responde por homicídio culposo.",
+  "como_resolver": "Errou sobre O QUE está fazendo (a realidade, o fato) → erro de tipo. Sabe o que faz, mas acha que é permitido → erro de proibição (art. 21).",
+  "como_chutar": "A AOCP gosta de alternativas que trazem a consequência completa ('exclui o dolo, permitindo culposo...'). Alternativas com consequências extremas ('sem qualquer responsabilização') geralmente são erradas."
+ },
+ {
+  "id": 8,
+  "disciplina": "Direito Penal",
+  "cargo": "ambos",
+  "enunciado": "Sobre a lei penal no tempo, é correto afirmar que:",
+  "alternativas": [
+   "a lei posterior mais benéfica não se aplica a fatos já decididos por sentença condenatória transitada em julgado.",
+   "a abolitio criminis faz cessar a execução, mas mantém todos os efeitos penais da sentença.",
+   "a lei posterior que de qualquer modo favorecer o agente aplica-se aos fatos anteriores, ainda que decididos por sentença condenatória transitada em julgado.",
+   "a lei excepcional ou temporária, decorrido o período de sua duração, não se aplica aos fatos praticados durante sua vigência.",
+   "considera-se praticado o crime no momento do resultado, ainda que outro seja o momento da ação."
+  ],
+  "gabarito": "C",
+  "comentario": "Art. 2º, parágrafo único, do CP: a lei posterior que de qualquer modo favorecer o agente aplica-se aos fatos anteriores, ainda que decididos por sentença condenatória transitada em julgado. A abolitio criminis cessa a execução E os efeitos penais (art. 2º, caput) – os efeitos civis permanecem. A lei temporária/excepcional é ULTRATIVA (art. 3º). Tempo do crime = teoria da ATIVIDADE (art. 4º): momento da ação ou omissão.",
+  "como_resolver": "Mnemônico LUTA: Lugar = Ubiquidade; Tempo = Atividade. Lei benéfica retroage sempre, até depois do trânsito em julgado.",
+  "como_chutar": "Quando duas alternativas dizem exatamente o oposto uma da outra, a resposta costuma ser uma delas. Escolha a que favorece o réu – em lei penal no tempo, a regra é proteger o acusado."
+ },
+ {
+  "id": 9,
+  "disciplina": "Direito Penal",
+  "cargo": "ambos",
+  "enunciado": "Com a Lei 14.994/2024 (pacote antifeminicídio), o feminicídio, praticado contra a mulher por razões da condição do sexo feminino, passou a ser:",
+  "alternativas": [
+   "qualificadora do homicídio, com pena de 12 a 30 anos.",
+   "crime autônomo, previsto no art. 121-A do Código Penal, com pena de reclusão de 20 a 40 anos.",
+   "causa de aumento de pena do homicídio simples, de 1/3 até a metade.",
+   "crime autônomo, com pena de reclusão de 12 a 30 anos, não considerado hediondo.",
+   "contravenção penal quando não houver violência doméstica."
+  ],
+  "gabarito": "B",
+  "comentario": "A Lei 14.994/2024 retirou o feminicídio do rol de qualificadoras do art. 121 e o transformou em crime autônomo (art. 121-A do CP), com pena de reclusão de 20 a 40 anos – a maior pena do Código. Continua hediondo.",
+  "como_resolver": "Lembre: feminicídio hoje = art. 121-A, crime próprio, 20 a 40 anos. Bancas adoram cobrar novidade legislativa recente.",
+  "como_chutar": "Em questão sobre lei NOVA, a alternativa que descreve a situação ANTIGA (qualificadora, 12 a 30) é a pegadinha. Se a pergunta diz 'passou a ser', procure a mudança, não o que já existia."
+ },
+ {
+  "id": 10,
+  "disciplina": "Direito Penal",
+  "cargo": "ambos",
+  "enunciado": "Assinale a alternativa que apresenta hipótese de lesão corporal de natureza GRAVÍSSIMA, nos termos do art. 129, §2º, do Código Penal.",
+  "alternativas": [
+   "Incapacidade para as ocupações habituais por mais de trinta dias.",
+   "Perigo de vida.",
+   "Debilidade permanente de membro, sentido ou função.",
+   "Aceleração de parto.",
+   "Perda ou inutilização de membro, sentido ou função."
+  ],
+  "gabarito": "E",
+  "comentario": "Grave (§1º): incapacidade para ocupações habituais por mais de 30 dias, perigo de vida, debilidade permanente de membro/sentido/função, aceleração de parto. Gravíssima (§2º): incapacidade permanente para o trabalho, enfermidade incurável, PERDA ou INUTILIZAÇÃO de membro/sentido/função, deformidade permanente, aborto.",
+  "como_resolver": "DEBILIDADE = grave; PERDA/INUTILIZAÇÃO = gravíssima. ACELERAÇÃO de parto = grave; ABORTO = gravíssima. Temporário = grave; permanente/incurável = gravíssima.",
+  "como_chutar": "Procure a palavra mais 'definitiva' entre as alternativas: perda, inutilização, permanente, incurável, aborto. A consequência mais severa corresponde à classificação mais severa."
+ },
+ {
+  "id": 11,
+  "disciplina": "Direito Processual Penal",
+  "cargo": "ambos",
+  "enunciado": "A respeito do inquérito policial, conforme o Código de Processo Penal, é correto afirmar que:",
+  "alternativas": [
+   "a autoridade policial poderá mandar arquivar os autos de inquérito quando se convencer da atipicidade do fato.",
+   "o inquérito deverá terminar no prazo de 10 dias, se o indiciado estiver preso, e no prazo de 30 dias, quando estiver solto.",
+   "o inquérito é indispensável ao oferecimento da denúncia.",
+   "nos crimes de ação penal privada, o inquérito será instaurado de ofício pela autoridade policial.",
+   "o ofendido não pode requerer qualquer diligência à autoridade policial."
+  ],
+  "gabarito": "B",
+  "comentario": "Art. 10 do CPP: 10 dias (preso, contado da prisão) e 30 dias (solto). Art. 17: a autoridade policial NÃO poderá mandar arquivar autos de inquérito. O IP é dispensável (art. 39, §5º, e art. 46, §1º). Na ação privada, depende de requerimento de quem tem qualidade para intentá-la (art. 5º, §5º). O ofendido pode requerer diligências (art. 14).",
+  "como_resolver": "Prazo regra do CPP: 10 preso / 30 solto (pode prorrogar o do solto). Delegado nunca arquiva IP. Isso cai em TODA prova de polícia civil.",
+  "como_chutar": "Alternativas que dão PODER à autoridade policial que ela não tem (arquivar) são pegadinha recorrente. Na dúvida, desconfie de alternativas que ampliam poderes do delegado ou restringem direitos do investigado/ofendido."
+ },
+ {
+  "id": 12,
+  "disciplina": "Direito Processual Penal",
+  "cargo": "ambos",
+  "enunciado": "Agente é perseguido pela polícia, logo após a prática de um roubo, em situação que faz presumir ser ele o autor da infração, sendo capturado após 40 minutos de perseguição ininterrupta. Trata-se de flagrante:",
+  "alternativas": [
+   "próprio, pois foi surpreendido cometendo a infração.",
+   "presumido ou ficto, pois foi encontrado com instrumentos do crime.",
+   "impróprio ou quase-flagrante.",
+   "preparado, que é ilícito por configurar crime impossível.",
+   "diferido, pois a polícia retardou a intervenção."
+  ],
+  "gabarito": "C",
+  "comentario": "Art. 302 do CPP: I e II = flagrante próprio (está cometendo ou acaba de cometer); III = impróprio/quase-flagrante (é PERSEGUIDO, logo após, em situação que faça presumir ser autor); IV = presumido/ficto (é ENCONTRADO, logo depois, com instrumentos, armas, objetos ou papéis que façam presumir ser ele o autor).",
+  "como_resolver": "Palavra-chave: PERSEGUIDO → impróprio. ENCONTRADO com objetos → presumido. Não existe prazo fixo de 24h para a perseguição; basta que seja ininterrupta.",
+  "como_chutar": "Identifique o verbo do enunciado ('perseguido', 'encontrado', 'cometendo') e associe ao inciso. Alternativas sobre flagrante preparado/diferido aparecem como distratores quando o enunciado não fala de provocação nem de ação controlada."
+ },
+ {
+  "id": 13,
+  "disciplina": "Direito Processual Penal",
+  "cargo": "ambos",
+  "enunciado": "Lavrado o auto de prisão em flagrante, o Código de Processo Penal determina que:",
+  "alternativas": [
+   "a prisão e o local onde se encontre o preso serão comunicados em até 48 horas ao juiz competente.",
+   "em até 24 horas após a prisão, será encaminhado ao juiz competente o auto de prisão em flagrante e, caso o autuado não informe o nome de seu advogado, cópia integral para a Defensoria Pública.",
+   "a nota de culpa será entregue ao preso em até 72 horas.",
+   "a audiência de custódia é facultativa e depende de requerimento da defesa.",
+   "o delegado deverá, obrigatoriamente, converter a prisão em flagrante em preventiva."
+  ],
+  "gabarito": "B",
+  "comentario": "Art. 306 do CPP: a prisão será comunicada IMEDIATAMENTE ao juiz, ao MP e à família ou pessoa indicada; em até 24 horas, o APF vai ao juiz e, se o autuado não informar advogado, cópia integral à Defensoria; também em 24 horas, entrega-se a nota de culpa. Art. 310: em até 24 horas após a prisão, o juiz promove audiência de custódia. Converter em preventiva é ato do JUIZ.",
+  "como_resolver": "Tudo no flagrante gira em torno de 'imediatamente' (comunicação) e '24 horas' (APF ao juiz, nota de culpa, audiência de custódia).",
+  "como_chutar": "Prazos diferentes de 24h (48h, 72h) nesse tema são quase sempre errados. E alternativas que dão ao delegado decisão do juiz (converter em preventiva) são erradas."
+ },
+ {
+  "id": 14,
+  "disciplina": "Direito Processual Penal",
+  "cargo": "ambos",
+  "enunciado": "Segundo o art. 158-B do CPP, introduzido pelo Pacote Anticrime, a cadeia de custódia compreende o rastreamento do vestígio em diversas etapas. NÃO constitui etapa da cadeia de custódia:",
+  "alternativas": [
+   "isolamento.",
+   "fixação.",
+   "acondicionamento.",
+   "interrogatório.",
+   "descarte."
+  ],
+  "gabarito": "D",
+  "comentario": "Art. 158-B do CPP: reconhecimento, isolamento, fixação, coleta, acondicionamento, transporte, recebimento, processamento, armazenamento e descarte (10 etapas). Interrogatório é meio de prova/defesa, não etapa de rastreamento de vestígio.",
+  "como_resolver": "Mnemônico (ordem): RIF-CAT-RPAD → Reconhecimento, Isolamento, Fixação, Coleta, Acondicionamento, Transporte, Recebimento, Processamento, Armazenamento, Descarte.",
+  "como_chutar": "Em 'NÃO constitui', procure o intruso de outra 'família': aqui, quatro alternativas tratam de manuseio físico de vestígio e uma trata de pessoa (interrogatório)."
+ },
+ {
+  "id": 15,
+  "disciplina": "Direito Processual Penal",
+  "cargo": "ambos",
+  "enunciado": "Acerca do acordo de não persecução penal (art. 28-A do CPP), assinale a alternativa correta.",
+  "alternativas": [
+   "Pode ser proposto pelo delegado de polícia ao final do inquérito.",
+   "Cabe em qualquer infração, independentemente da pena.",
+   "Exige que o investigado tenha confessado formal e circunstancialmente a prática de infração penal sem violência ou grave ameaça, com pena mínima inferior a 4 anos.",
+   "É cabível nos crimes praticados no âmbito de violência doméstica contra a mulher.",
+   "Dispensa homologação judicial."
+  ],
+  "gabarito": "C",
+  "comentario": "Art. 28-A: não sendo caso de arquivamento e tendo o investigado confessado formal e circunstancialmente infração penal sem violência ou grave ameaça e com pena mínima inferior a 4 anos, o MINISTÉRIO PÚBLICO poderá propor o ANPP. Não cabe em violência doméstica/familiar ou contra a mulher por razões da condição de sexo feminino (§2º, IV). É homologado em audiência pelo juiz (§4º).",
+  "como_resolver": "ANPP = MP propõe + confissão + sem violência/grave ameaça + pena MÍNIMA < 4 anos + homologação judicial.",
+  "como_chutar": "Termos amplos ('qualquer infração', 'dispensa') e transferência de competência ao delegado são distratores clássicos. A correta reúne vários requisitos técnicos juntos."
+ },
+ {
+  "id": 16,
+  "disciplina": "Direito Processual Penal",
+  "cargo": "ambos",
+  "enunciado": "Investigado em inquérito policial sigiloso constitui advogado, que requer acesso aos autos. Conforme a Súmula Vinculante 14 do STF:",
+  "alternativas": [
+   "o acesso é vedado enquanto durar o sigilo decretado.",
+   "o defensor tem direito de acesso amplo aos elementos de prova que, já documentados em procedimento investigatório, digam respeito ao exercício do direito de defesa.",
+   "o defensor pode acessar também as diligências ainda em andamento, como interceptações em curso.",
+   "o acesso depende de autorização do Ministério Público.",
+   "somente após o indiciamento o defensor poderá ter acesso aos autos."
+  ],
+  "gabarito": "B",
+  "comentario": "SV 14: é direito do defensor, no interesse do representado, ter acesso amplo aos elementos de prova que, já documentados em procedimento investigatório realizado por órgão com competência de polícia judiciária, digam respeito ao exercício do direito de defesa. Diligências em andamento (ainda não documentadas) podem ser preservadas.",
+  "como_resolver": "Palavra-chave: 'JÁ DOCUMENTADOS'. Documentado → defesa acessa. Em curso → pode ficar em sigilo.",
+  "como_chutar": "Entre 'vedado tudo' e 'liberado tudo', a resposta costuma ser o meio-termo com uma condição. Alternativas equilibradas, com ressalva, vencem as absolutas."
+ },
+ {
+  "id": 17,
+  "disciplina": "Direito Processual Penal",
+  "cargo": "ambos",
+  "enunciado": "Segundo a Lei 12.830/2013, que dispõe sobre a investigação criminal conduzida pelo delegado de polícia, o indiciamento:",
+  "alternativas": [
+   "é ato privativo do delegado de polícia e dar-se-á por ato fundamentado, mediante análise técnico-jurídica do fato, indicando autoria, materialidade e circunstâncias.",
+   "pode ser determinado pelo juiz ou pelo Ministério Público.",
+   "é ato discricionário que dispensa fundamentação.",
+   "pode ser realizado por investigador quando o delegado estiver ausente.",
+   "é requisito obrigatório para o oferecimento da denúncia."
+  ],
+  "gabarito": "A",
+  "comentario": "Art. 2º, §6º, da Lei 12.830/2013: o indiciamento, privativo do delegado de polícia, dar-se-á por ato fundamentado, mediante análise técnico-jurídica do fato, que deverá indicar a autoria, materialidade e suas circunstâncias. A jurisprudência do STF entende que o juiz não pode determinar o indiciamento, por ser ato privativo da autoridade policial.",
+  "como_resolver": "Indiciamento = privativo do DELEGADO + fundamentado. Ponto.",
+  "como_chutar": "Não existe padrão de posição de gabarito (letra mais frequente é lenda); o que existe é padrão de redação: a alternativa longa, técnica e com detalhes da lei costuma ser a correta."
+ },
+ {
+  "id": 18,
+  "disciplina": "Direito Processual Penal",
+  "cargo": "ambos",
+  "enunciado": "Nos termos da Lei 9.296/1996, a interceptação de comunicações telefônicas NÃO será admitida quando:",
+  "alternativas": [
+   "o fato investigado constituir infração penal punida, no máximo, com pena de detenção.",
+   "houver indícios razoáveis de autoria ou participação.",
+   "for requerida pela autoridade policial na investigação criminal.",
+   "o prazo for de 15 dias.",
+   "for necessária à investigação de crime de tráfico de drogas."
+  ],
+  "gabarito": "A",
+  "comentario": "Art. 2º da Lei 9.296/96: não será admitida a interceptação quando (I) não houver indícios razoáveis de autoria ou participação; (II) a prova puder ser feita por outros meios disponíveis; (III) o fato investigado constituir infração penal punida, no máximo, com pena de detenção. Pode ser requerida pela autoridade policial ou pelo MP (art. 3º); prazo de 15 dias, renovável (art. 5º).",
+  "como_resolver": "Interceptação só para crime punido com RECLUSÃO, com indícios e quando for o único meio (subsidiariedade).",
+  "como_chutar": "Pergunta negativa ('NÃO será admitida'): quatro alternativas descrevem situações normais/permitidas. A única que traz uma limitação é a resposta."
+ },
+ {
+  "id": 19,
+  "disciplina": "Direito Processual Penal",
+  "cargo": "ambos",
+  "enunciado": "Conforme a Constituição Federal, a casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo:",
+  "alternativas": [
+   "por determinação judicial, a qualquer hora do dia ou da noite.",
+   "em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia, por determinação judicial.",
+   "por requisição do delegado de polícia, durante o dia.",
+   "em caso de fundada suspeita, a qualquer hora.",
+   "para cumprimento de mandado judicial durante a noite, quando houver urgência."
+  ],
+  "gabarito": "B",
+  "comentario": "Art. 5º, XI, da CF. Flagrante, desastre e socorro: a qualquer hora. Ordem judicial: só durante o DIA. Delegado não expede mandado de busca domiciliar (reserva de jurisdição).",
+  "como_resolver": "Dia → mandado judicial. Noite → só flagrante, desastre ou socorro.",
+  "como_chutar": "Alternativas que relativizam a regra do 'durante o dia' (urgência, qualquer hora) ou dão a autoridade não judicial poder de ordenar entrada são erradas."
+ },
+ {
+  "id": 20,
+  "disciplina": "Legislação Extravagante",
+  "cargo": "ambos",
+  "enunciado": "Quem adquire, guarda, tem em depósito, transporta ou traz consigo, para consumo pessoal, drogas sem autorização ou em desacordo com determinação legal está sujeito, conforme o art. 28 da Lei 11.343/2006, às seguintes penas:",
+  "alternativas": [
+   "detenção de 6 meses a 2 anos e multa.",
+   "advertência sobre os efeitos das drogas, prestação de serviços à comunidade e medida educativa de comparecimento a programa ou curso educativo.",
+   "reclusão de 1 a 3 anos, substituível por restritiva de direitos.",
+   "prisão simples de 15 dias a 3 meses.",
+   "apenas multa, convertida em detenção se não paga."
+  ],
+  "gabarito": "B",
+  "comentario": "Art. 28 da Lei 11.343/06: advertência, prestação de serviços à comunidade e medida educativa de comparecimento a programa ou curso educativo. Não há pena privativa de liberdade, e o art. 48, §2º, veda a prisão em flagrante, devendo o autor ser encaminhado ao juízo ou assinar termo de compromisso. (Obs.: em 2024 o STF, no RE 635.659, fixou que o porte de até 40 g de maconha para consumo é ilícito administrativo; a prova costuma cobrar a letra da lei.)",
+  "como_resolver": "Usuário = nada de prisão. As três medidas: Advertência, Prestação de serviços, Medida educativa (APM).",
+  "como_chutar": "Quando todas as alternativas trazem penas de prisão menos uma, e o tema é usuário de drogas, marque a que NÃO tem prisão."
+ },
+ {
+  "id": 21,
+  "disciplina": "Legislação Extravagante",
+  "cargo": "ambos",
+  "enunciado": "No crime de tráfico de drogas (art. 33 da Lei 11.343/2006), as penas poderão ser reduzidas de um sexto a dois terços desde que o agente:",
+  "alternativas": [
+   "confesse espontaneamente o crime.",
+   "seja primário, de bons antecedentes, não se dedique às atividades criminosas nem integre organização criminosa.",
+   "tenha menos de 21 anos na data do fato.",
+   "colabore com a investigação indicando a localização de outros traficantes.",
+   "esteja portando quantidade inferior a 40 gramas."
+  ],
+  "gabarito": "B",
+  "comentario": "Art. 33, §4º: tráfico privilegiado. Requisitos cumulativos: primário, bons antecedentes, não se dedicar a atividades criminosas, não integrar organização criminosa. Redução de 1/6 a 2/3. O STF firmou que o tráfico privilegiado não é equiparado a hediondo, o que a Lei 13.964/2019 incorporou ao art. 112, §5º, da LEP.",
+  "como_resolver": "Tráfico privilegiado = 4 requisitos 'de pessoa de bem': primário, bons antecedentes, não dedicado ao crime, fora de organização.",
+  "como_chutar": "Quando a pergunta cita uma fração específica (1/6 a 2/3), a alternativa correta normalmente traz uma lista de requisitos cumulativos ('e', 'nem'), não um único requisito isolado."
+ },
+ {
+  "id": 22,
+  "disciplina": "Legislação Extravagante",
+  "cargo": "ambos",
+  "enunciado": "Segundo a Lei 12.850/2013, considera-se organização criminosa a associação de:",
+  "alternativas": [
+   "3 ou mais pessoas, para o fim específico de cometer crimes.",
+   "4 ou mais pessoas estruturalmente ordenada e caracterizada pela divisão de tarefas, ainda que informalmente, com objetivo de obter vantagem mediante a prática de infrações penais cujas penas máximas sejam superiores a 4 anos, ou de caráter transnacional.",
+   "2 ou mais pessoas para a prática de crimes hediondos.",
+   "4 ou mais pessoas, desde que haja hierarquia formal e registro de divisão de lucros.",
+   "5 ou mais pessoas, armadas, para a prática de crimes contra o patrimônio."
+  ],
+  "gabarito": "B",
+  "comentario": "Art. 1º, §1º, da Lei 12.850/13. Não confundir com associação criminosa do art. 288 do CP (3 ou mais pessoas, fim específico de cometer crimes) nem com associação para o tráfico (2 ou mais, art. 35 da Lei de Drogas).",
+  "como_resolver": "Números: tráfico = 2; associação criminosa (CP) = 3; ORCRIM = 4 + pena máxima > 4 anos ou transnacional.",
+  "como_chutar": "A banca coloca, como distratores, os números dos crimes 'vizinhos' (2, 3). Se lembrar que ORCRIM é '4 e 4' (quatro pessoas, pena > 4), acerta."
+ },
+ {
+  "id": 23,
+  "disciplina": "Legislação Extravagante",
+  "cargo": "ambos",
+  "enunciado": "De acordo com a Lei Maria da Penha (Lei 11.340/2006), verificada a existência de risco atual ou iminente à vida ou à integridade física ou psicológica da mulher, o agressor será imediatamente afastado do lar:",
+  "alternativas": [
+   "somente pela autoridade judicial, em qualquer caso.",
+   "pela autoridade judicial; pelo delegado de polícia, quando o Município não for sede de comarca; ou pelo policial, quando o Município não for sede de comarca e não houver delegado disponível no momento da denúncia.",
+   "pelo Ministério Público, mediante requisição.",
+   "pelo delegado de polícia em qualquer Município, independentemente de comunicação ao juiz.",
+   "pelo Conselho Tutelar, quando houver filhos menores."
+  ],
+  "gabarito": "B",
+  "comentario": "Art. 12-C da Lei 11.340/06. Nos casos do delegado e do policial, o juiz será comunicado em até 24 horas e decidirá, em igual prazo, sobre a manutenção ou revogação da medida.",
+  "como_resolver": "Ordem em cascata: JUIZ → DELEGADO (município sem comarca) → POLICIAL (sem comarca e sem delegado disponível).",
+  "como_chutar": "A alternativa mais longa, com escalonamento de hipóteses, é a cara de 'lei seca copiada'. Extremos ('somente', 'em qualquer Município') tendem a ser falsos."
+ },
+ {
+  "id": 24,
+  "disciplina": "Legislação Extravagante",
+  "cargo": "ambos",
+  "enunciado": "Nos termos da Lei 9.455/1997 (Lei de Tortura), assinale a alternativa correta.",
+  "alternativas": [
+   "O crime de tortura é afiançável e suscetível de anistia.",
+   "A condenação acarretará a perda do cargo, função ou emprego público e a interdição para seu exercício pelo dobro do prazo da pena aplicada.",
+   "O condenado por tortura sempre iniciará o cumprimento da pena em regime aberto.",
+   "A lei não se aplica quando o crime ocorre fora do território nacional, ainda que a vítima seja brasileira.",
+   "A omissão de quem tinha o dever de evitar a tortura não é punida."
+  ],
+  "gabarito": "B",
+  "comentario": "Art. 1º, §5º: perda do cargo e interdição pelo DOBRO do prazo da pena. §6º: inafiançável e insuscetível de graça ou anistia. §7º: regime inicial fechado (salvo o omitente do §2º). §2º: a omissão é punida (detenção de 1 a 4 anos). Art. 2º: aplica-se ainda que o crime não tenha sido cometido no Brasil, sendo a vítima brasileira ou estando o agente sob jurisdição brasileira.",
+  "como_resolver": "Tortura: 'dobro' da pena para interdição; perda do cargo é efeito automático (não precisa ser motivada).",
+  "como_chutar": "Tortura é crime gravíssimo (equiparado a hediondo). Toda alternativa que suaviza o tratamento (afiançável, regime aberto, omissão não punida) é falsa. Marque a mais rigorosa."
+ },
+ {
+  "id": 25,
+  "disciplina": "Legislação Extravagante",
+  "cargo": "ambos",
+  "enunciado": "Segundo a Lei 13.869/2019 (Abuso de Autoridade), as condutas nela descritas constituem crime quando praticadas pelo agente:",
+  "alternativas": [
+   "com culpa, por negligência no exercício da função.",
+   "com a finalidade específica de prejudicar outrem ou beneficiar a si mesmo ou a terceiro, ou, ainda, por mero capricho ou satisfação pessoal.",
+   "em qualquer hipótese de divergência na interpretação de lei.",
+   "somente quando houver prejuízo patrimonial à vítima.",
+   "independentemente de dolo, bastando o resultado."
+  ],
+  "gabarito": "B",
+  "comentario": "Art. 1º, §1º, da Lei 13.869/19: exige-se dolo + finalidade específica (prejudicar outrem, beneficiar a si ou a terceiro, mero capricho ou satisfação pessoal). §2º: a divergência na interpretação de lei ou na avaliação de fatos e provas não configura abuso de autoridade (o chamado 'crime de hermenêutica' foi afastado).",
+  "como_resolver": "Abuso de autoridade: só DOLOSO, com 'elemento subjetivo especial'. Divergência de interpretação NÃO é crime.",
+  "como_chutar": "'Culpa' e 'independentemente de dolo' quase nunca são resposta em lei penal especial que trata de agentes públicos – o legislador quis proteger a atuação de boa-fé."
+ },
+ {
+  "id": 26,
+  "disciplina": "Legislação Extravagante",
+  "cargo": "ambos",
+  "enunciado": "Conforme a Lei 8.072/1990, NÃO é considerado crime hediondo:",
+  "alternativas": [
+   "latrocínio.",
+   "extorsão mediante sequestro.",
+   "estupro.",
+   "roubo simples, sem emprego de arma.",
+   "furto qualificado pelo emprego de explosivo ou de artefato análogo que cause perigo comum."
+  ],
+  "gabarito": "D",
+  "comentario": "O art. 1º da Lei 8.072/90 inclui o roubo apenas em hipóteses específicas (restrição de liberdade da vítima, emprego de arma de fogo, arma de uso proibido/restrito, lesão grave ou morte). O roubo simples não é hediondo. O furto com explosivo foi incluído pela Lei 13.964/2019.",
+  "como_resolver": "Roubo só é hediondo nas formas agravadas (§2º, V; §2º-A, I; §2º-B; §3º). Roubo simples, nunca.",
+  "como_chutar": "Na pergunta 'NÃO é hediondo', procure a forma SIMPLES de um crime: o legislador lista quase sempre as formas qualificadas."
+ },
+ {
+  "id": 27,
+  "disciplina": "Legislação Extravagante",
+  "cargo": "ambos",
+  "enunciado": "Pessoa que mantém, no interior de sua residência, arma de fogo de uso permitido sem registro comete, em tese, o crime de:",
+  "alternativas": [
+   "porte ilegal de arma de fogo de uso permitido (art. 14 da Lei 10.826/2003).",
+   "posse irregular de arma de fogo de uso permitido (art. 12 da Lei 10.826/2003).",
+   "comércio ilegal de arma de fogo.",
+   "disparo de arma de fogo.",
+   "posse ou porte de arma de fogo de uso restrito."
+  ],
+  "gabarito": "B",
+  "comentario": "Art. 12 do Estatuto do Desarmamento: possuir ou manter sob guarda arma de fogo de uso permitido, em desacordo com determinação legal, no interior de sua residência ou dependência desta, ou no seu local de trabalho, desde que seja o titular ou responsável legal do estabelecimento (detenção de 1 a 3 anos). Fora desses locais = porte (art. 14).",
+  "como_resolver": "DENTRO de casa/trabalho (sendo titular) = POSSE (art. 12, detenção). FORA = PORTE (art. 14, reclusão).",
+  "como_chutar": "O enunciado insiste no LOCAL ('no interior de sua residência'). Quando o local é o detalhe, a resposta é a figura que depende do local: posse."
+ },
+ {
+  "id": 28,
+  "disciplina": "Legislação Extravagante",
+  "cargo": "ambos",
+  "enunciado": "Conforme a Lei 7.716/1989, com redação dada pela Lei 14.532/2023, injuriar alguém, ofendendo-lhe a dignidade ou o decoro, em razão de raça, cor, etnia ou procedência nacional:",
+  "alternativas": [
+   "é contravenção penal punida com multa.",
+   "configura injúria simples do art. 140 do Código Penal, de ação penal privada.",
+   "é crime, punido com reclusão de 2 a 5 anos e multa, tipificado na própria Lei 7.716/1989.",
+   "é crime afiançável e prescritível, com pena de detenção de 1 a 6 meses.",
+   "somente é crime se praticado em meio de comunicação social."
+  ],
+  "gabarito": "C",
+  "comentario": "A Lei 14.532/2023 levou a injúria racial para a Lei 7.716/89 (art. 2º-A), com pena de reclusão de 2 a 5 anos e multa, equiparando-a ao racismo (imprescritível e inafiançável, conforme art. 5º, XLII, da CF e entendimento do STF).",
+  "como_resolver": "Injúria racial hoje = art. 2º-A da Lei 7.716, reclusão de 2 a 5 anos. Não está mais no art. 140, §3º, do CP (que ficou para religião, idade e deficiência).",
+  "como_chutar": "Tema ligado a direitos fundamentais e igualdade racial: a banca segue a tendência legislativa de endurecimento. Alternativas que minimizam (contravenção, multa, detenção curta) caem fora."
+ },
+ {
+  "id": 29,
+  "disciplina": "Igualdade Racial e de Gênero",
+  "cargo": "ambos",
+  "enunciado": "De acordo com o Estatuto da Igualdade Racial (Lei 12.288/2010), considera-se população negra:",
+  "alternativas": [
+   "o conjunto de pessoas que se autodeclaram pretas e pardas, conforme o quesito cor ou raça usado pelo IBGE, ou que adotam autodefinição análoga.",
+   "apenas as pessoas que se autodeclaram pretas.",
+   "as pessoas assim identificadas por laudo de heteroidentificação, exclusivamente.",
+   "os descendentes diretos de pessoas escravizadas, comprovada a ascendência.",
+   "as pessoas residentes em comunidades quilombolas."
+  ],
+  "gabarito": "A",
+  "comentario": "Art. 1º, parágrafo único, IV, da Lei 12.288/2010: população negra é o conjunto de pessoas que se autodeclaram pretas e pardas, conforme o quesito cor ou raça usado pelo IBGE, ou que adotam autodefinição análoga.",
+  "como_resolver": "População negra = PRETOS + PARDOS, por AUTODECLARAÇÃO (critério do IBGE).",
+  "como_chutar": "Termos restritivos ('apenas', 'exclusivamente', 'comprovada a ascendência') tornam a definição estreita demais. Em Igualdade Racial, a definição legal é ampla e inclusiva."
+ },
+ {
+  "id": 30,
+  "disciplina": "Direito Constitucional",
+  "cargo": "ambos",
+  "enunciado": "Nos termos do art. 144, §4º, da Constituição Federal, às polícias civis, dirigidas por delegados de polícia de carreira, incumbem:",
+  "alternativas": [
+   "ressalvada a competência da União, as funções de polícia judiciária e a apuração de infrações penais, exceto as militares.",
+   "o policiamento ostensivo e a preservação da ordem pública.",
+   "a apuração de todas as infrações penais, inclusive as militares.",
+   "a polícia judiciária da União com exclusividade.",
+   "o patrulhamento ostensivo das rodovias estaduais."
+  ],
+  "gabarito": "A",
+  "comentario": "Art. 144, §4º, da CF: às polícias civis, dirigidas por delegados de polícia de carreira, incumbem, ressalvada a competência da União, as funções de polícia judiciária e a apuração de infrações penais, exceto as militares. Policiamento ostensivo e preservação da ordem pública são da PM (§5º). Polícia judiciária da União é da PF (§1º, IV).",
+  "como_resolver": "Civil = investiga (judiciária + apuração), menos crime militar e menos o que é da União. Militar = ostensivo + ordem pública.",
+  "como_chutar": "Termos absolutos ('todas', 'inclusive as militares', 'com exclusividade') são armadilha. A correta tem a ressalva ('ressalvada a competência da União', 'exceto as militares')."
+ },
+ {
+  "id": 31,
+  "disciplina": "Direito Constitucional",
+  "cargo": "ambos",
+  "enunciado": "Acerca dos direitos do preso previstos no art. 5º da Constituição Federal, assinale a alternativa correta.",
+  "alternativas": [
+   "A prisão de qualquer pessoa será comunicada em até 48 horas ao juiz competente.",
+   "Ninguém será preso senão em flagrante delito ou por ordem escrita e fundamentada de autoridade judiciária competente, salvo nos casos de transgressão militar ou crime propriamente militar, definidos em lei.",
+   "O preso tem o direito de permanecer calado, mas o silêncio poderá ser interpretado em prejuízo da defesa.",
+   "O civilmente identificado sempre será submetido à identificação criminal.",
+   "O preso não tem direito à identificação dos responsáveis por sua prisão."
+  ],
+  "gabarito": "B",
+  "comentario": "Art. 5º, LXI, da CF. A comunicação é IMEDIATA ao juiz e à família (LXII). O direito ao silêncio não pode ser interpretado em prejuízo (LXIII e art. 186, parágrafo único, do CPP). O civilmente identificado NÃO será submetido à identificação criminal, salvo hipóteses legais (LVIII). O preso tem direito à identificação dos responsáveis por sua prisão ou interrogatório (LXIV).",
+  "como_resolver": "Prisão = flagrante OU ordem escrita e fundamentada do JUIZ. Comunicação = imediata. Silêncio = nunca prejudica.",
+  "como_chutar": "Direitos fundamentais do preso: a alternativa que AMPLIA garantias tende a ser correta; a que restringe ('em prejuízo da defesa', 'não tem direito', 'sempre será submetido') tende a ser falsa."
+ },
+ {
+  "id": 32,
+  "disciplina": "Direito Constitucional",
+  "cargo": "ambos",
+  "enunciado": "Para assegurar o conhecimento de informações relativas à pessoa do impetrante, constantes de registros ou bancos de dados de entidades governamentais ou de caráter público, a Constituição prevê o:",
+  "alternativas": [
+   "mandado de segurança.",
+   "mandado de injunção.",
+   "habeas data.",
+   "habeas corpus.",
+   "ação popular."
+  ],
+  "gabarito": "C",
+  "comentario": "Art. 5º, LXXII, da CF: habeas data para conhecer ou retificar informações relativas à pessoa do impetrante. HC = liberdade de locomoção. MS = direito líquido e certo não amparado por HC ou HD. MI = falta de norma regulamentadora. Ação popular = anular ato lesivo ao patrimônio público, moralidade, meio ambiente.",
+  "como_resolver": "DATA = DADOS (informações pessoais). CORPUS = corpo (locomoção). INJUNÇÃO = falta de norma.",
+  "como_chutar": "Use o nome do remédio como pista semântica: 'informações/registros/bancos de dados' → 'data'."
+ },
+ {
+  "id": 33,
+  "disciplina": "Direito Constitucional",
+  "cargo": "ambos",
+  "enunciado": "Segundo a Constituição Federal, constitui crime inafiançável e imprescritível:",
+  "alternativas": [
+   "a tortura.",
+   "o tráfico ilícito de entorpecentes.",
+   "o terrorismo.",
+   "os crimes hediondos.",
+   "a prática do racismo."
+  ],
+  "gabarito": "E",
+  "comentario": "Art. 5º, XLII: racismo = inafiançável e imprescritível. XLIV: ação de grupos armados contra a ordem constitucional e o Estado Democrático = inafiançável e imprescritível. XLIII: tortura, tráfico, terrorismo e hediondos (3TH) = inafiançáveis e insuscetíveis de graça ou anistia, mas PRESCRITÍVEIS.",
+  "como_resolver": "Imprescritíveis só dois: RAÇÃO → RAcismo + AÇÃO de grupos armados. 3TH: inafiançáveis, sem graça/anistia, mas prescrevem.",
+  "como_chutar": "Quatro alternativas pertencem ao mesmo grupo (3TH). O 'intruso' que pertence a outro inciso é a resposta."
+ },
+ {
+  "id": 34,
+  "disciplina": "Direito Administrativo",
+  "cargo": "ambos",
+  "enunciado": "São atributos do ato administrativo, segundo a doutrina majoritária:",
+  "alternativas": [
+   "competência, finalidade, forma, motivo e objeto.",
+   "presunção de legitimidade, imperatividade, autoexecutoriedade e tipicidade.",
+   "legalidade, impessoalidade, moralidade, publicidade e eficiência.",
+   "discricionariedade, vinculação, revogabilidade e anulabilidade.",
+   "hierarquia, disciplina, polícia e regulamento."
+  ],
+  "gabarito": "B",
+  "comentario": "Atributos (PATI): Presunção de legitimidade/veracidade, Autoexecutoriedade, Tipicidade e Imperatividade. Competência, finalidade, forma, motivo e objeto são ELEMENTOS ou requisitos (COFIFOMOB). LIMPE são princípios. Hierárquico, disciplinar, de polícia e regulamentar são poderes.",
+  "como_resolver": "PATI = atributos. COFIFOMOB = elementos. LIMPE = princípios. Não misture as listas.",
+  "como_chutar": "A banca monta os distratores com OUTRAS listas famosas do Direito Administrativo. Reconheça cada lista e elimine as que pertencem a outro tema."
+ },
+ {
+  "id": 35,
+  "disciplina": "Direito Administrativo",
+  "cargo": "ambos",
+  "enunciado": "A respeito da anulação e da revogação dos atos administrativos, assinale a alternativa correta.",
+  "alternativas": [
+   "A revogação decorre de ilegalidade e produz efeitos retroativos.",
+   "O Poder Judiciário pode revogar atos administrativos do Poder Executivo por razões de conveniência.",
+   "A Administração pode anular seus próprios atos quando eivados de vícios que os tornem ilegais, ou revogá-los por motivo de conveniência ou oportunidade, respeitados os direitos adquiridos.",
+   "A anulação somente pode ser feita pelo Poder Judiciário.",
+   "A revogação atinge atos vinculados e produz efeitos ex tunc."
+  ],
+  "gabarito": "C",
+  "comentario": "Súmula 473 do STF (autotutela). Anulação = ilegalidade, efeitos ex tunc (retroativos), pela Administração ou pelo Judiciário. Revogação = conveniência e oportunidade (mérito), efeitos ex nunc, só pela própria Administração e somente de atos discricionários (atos vinculados não se revogam).",
+  "como_resolver": "ANULA o ILegal (ex tunc). REVOGA o inconveniente (ex nunc). Judiciário só anula ato de outro Poder, não revoga.",
+  "como_chutar": "A correta reproduz a Súmula 473 quase palavra por palavra. Alternativas que dão ao Judiciário controle de mérito costumam ser falsas."
+ },
+ {
+  "id": 36,
+  "disciplina": "Direito Administrativo",
+  "cargo": "ambos",
+  "enunciado": "O poder que permite à Administração apurar infrações e aplicar penalidades aos servidores públicos e às demais pessoas sujeitas à disciplina administrativa denomina-se:",
+  "alternativas": [
+   "poder de polícia.",
+   "poder regulamentar.",
+   "poder hierárquico.",
+   "poder disciplinar.",
+   "poder vinculado."
+  ],
+  "gabarito": "D",
+  "comentario": "Poder disciplinar: apurar infrações e aplicar penalidades a servidores e a particulares com vínculo especial (ex.: contratados). Poder de polícia: limitar a liberdade e a propriedade em favor do interesse público, alcançando particulares em geral (vínculo geral). Poder hierárquico: ordenar, coordenar, rever, delegar e avocar.",
+  "como_resolver": "Vínculo ESPECIAL (servidor, contratado) + punição → disciplinar. Vínculo GERAL (qualquer cidadão) → polícia.",
+  "como_chutar": "Procure a palavra do enunciado que coincide com o nome do poder: 'disciplina administrativa' → disciplinar. A banca raramente esconde isso."
+ },
+ {
+  "id": 37,
+  "disciplina": "Direito Administrativo",
+  "cargo": "ambos",
+  "enunciado": "Após as alterações promovidas pela Lei 14.230/2021 na Lei de Improbidade Administrativa (Lei 8.429/1992), os atos de improbidade:",
+  "alternativas": [
+   "podem ser praticados com culpa, nas hipóteses de lesão ao erário.",
+   "exigem conduta dolosa em todas as modalidades.",
+   "dispensam a demonstração de dolo quando houver enriquecimento ilícito.",
+   "são punidos exclusivamente na esfera penal.",
+   "somente podem ser praticados por servidores efetivos."
+  ],
+  "gabarito": "B",
+  "comentario": "Com a Lei 14.230/2021, o art. 1º, §§1º a 3º, passou a exigir DOLO para todas as modalidades de improbidade (enriquecimento ilícito, lesão ao erário e violação a princípios). Acabou a improbidade culposa. Sanções têm natureza civil-administrativa; alcançam agentes públicos em sentido amplo e terceiros que induzam ou concorram.",
+  "como_resolver": "Pós-2021: improbidade = SÓ DOLOSA. Ponto final.",
+  "como_chutar": "Questão sobre 'alterações recentes' quer testar a mudança. A alternativa que descreve o regime antigo (culpa na lesão ao erário) é a pegadinha."
+ },
+ {
+  "id": 38,
+  "disciplina": "Direito Administrativo",
+  "cargo": "ambos",
+  "enunciado": "NÃO está expressamente previsto no caput do art. 37 da Constituição Federal o princípio da:",
+  "alternativas": [
+   "legalidade.",
+   "impessoalidade.",
+   "razoabilidade.",
+   "publicidade.",
+   "eficiência."
+  ],
+  "gabarito": "C",
+  "comentario": "Caput do art. 37: legalidade, impessoalidade, moralidade, publicidade e eficiência (LIMPE). Razoabilidade e proporcionalidade são princípios implícitos na CF (expressos na Lei 9.784/99).",
+  "como_resolver": "LIMPE. Se não for L, I, M, P ou E, não está no caput.",
+  "como_chutar": "Basta checar cada alternativa contra a sigla LIMPE. O intruso é a resposta."
+ },
+ {
+  "id": 39,
+  "disciplina": "Língua Portuguesa",
+  "cargo": "ambos",
+  "enunciado": "Assinale a alternativa em que o acento grave indicativo de crase foi empregado corretamente.",
+  "alternativas": [
+   "O investigador começou à analisar as imagens.",
+   "O relatório foi entregue à delegada responsável pelo caso.",
+   "A testemunha referiu-se à ele durante o depoimento.",
+   "As diligências serão feitas à partir de amanhã.",
+   "O escrivão dirigiu-se à uma sala reservada."
+  ],
+  "gabarito": "B",
+  "comentario": "Há crase em 'entregue à delegada': o verbo exige a preposição 'a' (entregar algo A alguém) e 'delegada' admite artigo feminino 'a'. Não há crase antes de verbo (começou a analisar), de pronome pessoal (a ele), de 'a partir de' (antes de verbo) nem, em regra, antes de artigo indefinido (a uma sala).",
+  "como_resolver": "Teste: troque por palavra masculina. 'Entregue AO delegado' → aparece 'ao' → há crase. 'Começou AO analisar' → absurdo → não há crase.",
+  "como_chutar": "Crase NUNCA antes de verbo, pronome pessoal reto/oblíquo tônico (ele, ela), e quase nunca antes de 'uma'. Isso elimina várias alternativas em segundos."
+ },
+ {
+  "id": 40,
+  "disciplina": "Língua Portuguesa",
+  "cargo": "ambos",
+  "enunciado": "Assinale a alternativa correta quanto à concordância verbal, segundo a norma-padrão.",
+  "alternativas": [
+   "Fazem três anos que o caso foi arquivado.",
+   "Existe, nos autos, várias provas da autoria.",
+   "Houve muitas ocorrências durante o feriado.",
+   "Haviam suspeitos escondidos no imóvel.",
+   "Deve haver novas testemunhas, conforme informaram os vizinhos, mas devem haver mais diligências."
+  ],
+  "gabarito": "C",
+  "comentario": "'Haver' no sentido de existir/acontecer é impessoal e fica no singular: 'Houve muitas ocorrências', 'Havia suspeitos'. 'Fazer' indicando tempo também é impessoal: 'Faz três anos'. 'Existir' é pessoal e concorda com o sujeito: 'Existem várias provas'. Na locução, o auxiliar fica no singular: 'deve haver'.",
+  "como_resolver": "HAVER (existir) e FAZER (tempo) → singular sempre, e contaminam o auxiliar. EXISTIR → concorda normalmente.",
+  "como_chutar": "Se o verbo 'haver' com sentido de existir aparece no plural (haviam, houveram), a alternativa está errada. Use isso para eliminar rápido."
+ },
+ {
+  "id": 41,
+  "disciplina": "Língua Portuguesa",
+  "cargo": "ambos",
+  "enunciado": "No período 'O suspeito apresentou um álibi consistente; NÃO OBSTANTE, permaneceu sob investigação', a expressão destacada estabelece entre as orações relação de:",
+  "alternativas": [
+   "causa.",
+   "conclusão.",
+   "condição.",
+   "adversidade/oposição.",
+   "finalidade."
+  ],
+  "gabarito": "D",
+  "comentario": "'Não obstante' equivale a 'porém', 'contudo', 'entretanto', 'todavia' (valor adversativo/concessivo): a segunda informação contraria a expectativa criada pela primeira (álibi consistente → seria esperado sair da investigação).",
+  "como_resolver": "Substitua pelo conectivo mais simples que mantém o sentido: '...consistente; PORÉM, permaneceu...' → adversidade.",
+  "como_chutar": "Se a segunda parte da frase 'quebra a expectativa' da primeira, a resposta é oposição (adversidade ou concessão)."
+ },
+ {
+  "id": 42,
+  "disciplina": "Língua Portuguesa",
+  "cargo": "ambos",
+  "enunciado": "Conforme o Manual de Redação da Presidência da República, ao redigir comunicação oficial a uma autoridade de hierarquia SUPERIOR, o fecho adequado é:",
+  "alternativas": [
+   "Atenciosamente,",
+   "Cordialmente,",
+   "Respeitosamente,",
+   "Saudações,",
+   "Sem mais para o momento,"
+  ],
+  "gabarito": "C",
+  "comentario": "O Manual estabelece dois fechos: 'Respeitosamente' para autoridades de hierarquia superior (inclusive o Presidente da República) e 'Atenciosamente' para autoridades de mesma hierarquia ou inferior. Além disso, a redação oficial deve primar pela impessoalidade, clareza, concisão, formalidade e padronização.",
+  "como_resolver": "SUPERIOR → RESPEITOSAMENTE. Igual ou inferior → ATENCIOSAMENTE.",
+  "como_chutar": "Só existem dois fechos oficiais. Elimine tudo que não for 'Respeitosamente' ou 'Atenciosamente' e escolha pela hierarquia."
+ },
+ {
+  "id": 43,
+  "disciplina": "Língua Portuguesa",
+  "cargo": "ambos",
+  "enunciado": "Assinale a alternativa em que a colocação do pronome oblíquo átono está de acordo com a norma-padrão.",
+  "alternativas": [
+   "Me disseram que o laudo ficou pronto.",
+   "Não encontraram-se vestígios no local.",
+   "Ninguém lhe deu notícia da audiência.",
+   "Tinha-se falado em nova perícia, mas o perito nunca manifestou-se.",
+   "Quando viu-o, o policial deu a ordem de parada."
+  ],
+  "gabarito": "C",
+  "comentario": "Palavras de sentido negativo (não, nunca, ninguém), conjunções subordinativas (quando, que) e advérbios atraem o pronome (próclise): 'Ninguém lhe deu notícia', 'Não se encontraram', 'nunca se manifestou', 'Quando o viu'. Na norma-padrão, não se inicia oração com pronome oblíquo átono ('Me disseram' → 'Disseram-me').",
+  "como_resolver": "Viu palavra 'ímã' (não, nunca, ninguém, que, quando, advérbio)? Pronome ANTES do verbo. Início de frase? Pronome DEPOIS.",
+  "como_chutar": "Primeiro elimine o pronome no início da frase. Depois procure palavra negativa ou 'quando/que' com ênclise – está errado."
+ },
+ {
+  "id": 44,
+  "disciplina": "Língua Portuguesa",
+  "cargo": "ambos",
+  "enunciado": "Assinale a alternativa corretamente pontuada.",
+  "alternativas": [
+   "Os policiais que participaram da operação, receberam elogio formal.",
+   "O delegado, determinou a instauração do inquérito.",
+   "Durante a madrugada, a equipe cumpriu três mandados de busca.",
+   "A vítima, reconheceu o autor do crime sem hesitar.",
+   "Os documentos apreendidos foram, encaminhados à perícia."
+  ],
+  "gabarito": "C",
+  "comentario": "A vírgula separa adjunto adverbial deslocado para o início da oração ('Durante a madrugada,'). Nas demais, há vírgula indevida entre sujeito e verbo ou entre verbo e seu complemento/predicativo – erro clássico.",
+  "como_resolver": "Regra de ouro: NUNCA separe sujeito de verbo, nem verbo de complemento, com uma única vírgula.",
+  "como_chutar": "Encontre o verbo principal de cada alternativa e veja se há vírgula solitária logo antes dele separando o sujeito. Se houver, elimine."
+ },
+ {
+  "id": 45,
+  "disciplina": "Língua Portuguesa",
+  "cargo": "ambos",
+  "enunciado": "Leia o texto: 'A tecnologia mudou a investigação criminal. Câmeras, celulares e bancos de dados oferecem rastros antes inimagináveis. Ainda assim, nenhum algoritmo substitui a escuta atenta de uma testemunha ou a intuição construída em anos de serviço.' De acordo com o texto, é correto afirmar que o autor:",
+  "alternativas": [
+   "defende que a tecnologia tornou obsoleto o trabalho de campo.",
+   "considera que a tecnologia é inútil para a investigação.",
+   "reconhece os avanços tecnológicos, mas sustenta que o fator humano continua indispensável.",
+   "afirma que as testemunhas são menos confiáveis que os algoritmos.",
+   "critica o uso de câmeras por violar a privacidade."
+  ],
+  "gabarito": "C",
+  "comentario": "O texto valoriza a tecnologia (1º e 2º períodos) e, com o conectivo 'Ainda assim' (concessivo), afirma que ela não substitui a escuta e a intuição humanas. A resposta certa sintetiza as duas ideias; as demais extrapolam (obsoleto, inútil), contradizem o texto ou introduzem tema ausente (privacidade).",
+  "como_resolver": "Em interpretação, ache o conectivo de virada ('ainda assim', 'porém') – a ideia principal geralmente vem DEPOIS dele.",
+  "como_chutar": "Elimine alternativas radicais (obsoleto, inútil) e as que trazem assunto que o texto não menciona. A resposta costuma ser equilibrada e abranger o texto inteiro."
+ },
+ {
+  "id": 46,
+  "disciplina": "Raciocínio Lógico",
+  "cargo": "ambos",
+  "enunciado": "A negação lógica da proposição 'Se o suspeito fugiu, então a equipe chegou atrasada' é:",
+  "alternativas": [
+   "Se o suspeito não fugiu, então a equipe não chegou atrasada.",
+   "O suspeito fugiu e a equipe não chegou atrasada.",
+   "O suspeito não fugiu ou a equipe chegou atrasada.",
+   "Se a equipe não chegou atrasada, então o suspeito não fugiu.",
+   "O suspeito não fugiu e a equipe não chegou atrasada."
+  ],
+  "gabarito": "B",
+  "comentario": "~(p → q) ≡ p ∧ ~q. Mantém-se a primeira proposição e nega-se a segunda, ligando-as com 'e'. Cuidado: 'Se a equipe não chegou atrasada, então o suspeito não fugiu' é a contrapositiva (equivalência, não negação), e 'não fugiu OU chegou atrasada' também é equivalência.",
+  "como_resolver": "Regra MA-NE: MAntém a primeira E NEga a segunda.",
+  "como_chutar": "Negação de 'se...então' NUNCA é outro 'se...então'. Descarte todas as condicionais e procure o 'e' com a segunda parte negada."
+ },
+ {
+  "id": 47,
+  "disciplina": "Raciocínio Lógico",
+  "cargo": "ambos",
+  "enunciado": "Uma proposição logicamente equivalente a 'Se há flagrante, então a prisão é legal' é:",
+  "alternativas": [
+   "Se a prisão é legal, então há flagrante.",
+   "Se não há flagrante, então a prisão não é legal.",
+   "Se a prisão não é legal, então não há flagrante.",
+   "Há flagrante e a prisão não é legal.",
+   "Há flagrante ou a prisão é legal."
+  ],
+  "gabarito": "C",
+  "comentario": "p → q ≡ ~q → ~p (contrapositiva). Também equivale a ~p ∨ q ('Não há flagrante ou a prisão é legal'). A recíproca ('se a prisão é legal, há flagrante') e a inversa ('se não há flagrante, a prisão não é legal') NÃO são equivalentes; 'há flagrante e a prisão não é legal' é a negação.",
+  "como_resolver": "Contrapositiva: INVERTE a ordem e NEGA as duas. Ou: NEGA a primeira e troca 'então' por 'ou' (NEYMAR: Nega a primeira, Ou, Mantém a segunda).",
+  "como_chutar": "Procure a condicional em que AMBAS as partes aparecem negadas E em ordem trocada. Só uma alternativa faz as duas coisas."
+ },
+ {
+  "id": 48,
+  "disciplina": "Raciocínio Lógico",
+  "cargo": "ambos",
+  "enunciado": "A negação da proposição 'Todos os investigadores são pontuais' é:",
+  "alternativas": [
+   "Nenhum investigador é pontual.",
+   "Todos os investigadores não são pontuais.",
+   "Algum investigador não é pontual.",
+   "Algum investigador é pontual.",
+   "Nenhum investigador é impontual."
+  ],
+  "gabarito": "C",
+  "comentario": "Negação de 'todo A é B' = 'algum A não é B' (pelo menos um). 'Nenhum' é o oposto extremo, não a negação. Para negar 'todos', basta um contraexemplo.",
+  "como_resolver": "TODO ↔ ALGUM NÃO. NENHUM ↔ ALGUM.",
+  "como_chutar": "Pergunte: o que bastaria para provar que a frase é falsa? Um só investigador impontual. A alternativa que diz exatamente isso é a resposta."
+ },
+ {
+  "id": 49,
+  "disciplina": "Raciocínio Lógico",
+  "cargo": "ambos",
+  "enunciado": "O preço de um equipamento sofreu aumento de 20% e, em seguida, redução de 20%. Em relação ao preço inicial, o preço final é:",
+  "alternativas": [
+   "igual.",
+   "4% maior.",
+   "4% menor.",
+   "2% menor.",
+   "10% menor."
+  ],
+  "gabarito": "C",
+  "comentario": "Fatores multiplicativos: 1,20 × 0,80 = 0,96. Logo, o preço final corresponde a 96% do inicial: redução de 4%.",
+  "como_resolver": "Aumentos/descontos sucessivos: multiplique os fatores (1 + taxa) e (1 − taxa). Nunca some percentuais.",
+  "como_chutar": "Teste com 100: 100 → 120 → 96. Usar 100 resolve quase toda questão de porcentagem em segundos."
+ },
+ {
+  "id": 50,
+  "disciplina": "Raciocínio Lógico",
+  "cargo": "ambos",
+  "enunciado": "Uma caixa contém 3 bolas vermelhas e 2 azuis. Retirando-se duas bolas, sucessivamente e sem reposição, a probabilidade de ambas serem vermelhas é:",
+  "alternativas": [
+   "3/10",
+   "9/25",
+   "2/5",
+   "3/5",
+   "1/2"
+  ],
+  "gabarito": "A",
+  "comentario": "P = 3/5 × 2/4 = 6/20 = 3/10. Sem reposição, o total e a quantidade de vermelhas diminuem após a primeira retirada. Com reposição seria 3/5 × 3/5 = 9/25 (distrator).",
+  "como_resolver": "Eventos sucessivos 'E' → multiplique. Sem reposição → ajuste numerador e denominador a cada retirada.",
+  "como_chutar": "A probabilidade de DUAS coisas acontecerem é sempre menor que a de uma só (3/5). Isso elimina 3/5; e 9/25 é a armadilha 'com reposição'."
+ },
+ {
+  "id": 51,
+  "disciplina": "Informática",
+  "cargo": "ambos",
+  "enunciado": "No Windows 11, o atalho de teclado que bloqueia imediatamente a sessão do usuário é:",
+  "alternativas": [
+   "Windows + D",
+   "Windows + E",
+   "Windows + L",
+   "Ctrl + Alt + Tab",
+   "Windows + R"
+  ],
+  "gabarito": "C",
+  "comentario": "Win + L = Lock (bloquear). Win + D = mostra/oculta a área de trabalho (Desktop). Win + E = Explorador de Arquivos (Explorer). Win + R = Executar (Run).",
+  "como_resolver": "As letras são as iniciais em inglês: L = Lock, D = Desktop, E = Explorer, R = Run, I = Settings (configurações), V = histórico da área de transferência.",
+  "como_chutar": "Pense no verbo em inglês da ação pedida e procure a letra inicial."
+ },
+ {
+  "id": 52,
+  "disciplina": "Informática",
+  "cargo": "ambos",
+  "enunciado": "No Microsoft Excel (Office 365), a célula C1 contém a fórmula =A1*$B$1. Ao copiar C1 e colar em C2, a fórmula em C2 será:",
+  "alternativas": [
+   "=A1*$B$1",
+   "=A2*$B$2",
+   "=A2*$B$1",
+   "=B2*$B$1",
+   "=A2*B1"
+  ],
+  "gabarito": "C",
+  "comentario": "Referências relativas (A1) se ajustam ao deslocamento: uma linha abaixo → A2. Referências absolutas ($B$1) permanecem fixas. Logo: =A2*$B$1.",
+  "como_resolver": "O cifrão 'tranca' o que vem logo depois dele: $B trava a coluna, $1 trava a linha. Sem cifrão, anda junto com a cópia.",
+  "como_chutar": "Se a referência tem $ nas duas partes, ela tem que aparecer IGUAL na resposta. Isso elimina as alternativas que alteram $B$1."
+ },
+ {
+  "id": 53,
+  "disciplina": "Informática",
+  "cargo": "ambos",
+  "enunciado": "Tipo de código malicioso que criptografa os dados do usuário e exige pagamento (normalmente em criptomoeda) para restabelecer o acesso:",
+  "alternativas": [
+   "spyware.",
+   "worm.",
+   "ransomware.",
+   "adware.",
+   "keylogger."
+  ],
+  "gabarito": "C",
+  "comentario": "Ransomware = 'sequestro' de dados (ransom = resgate). Spyware monitora e envia informações. Worm se propaga sozinho pela rede, sem precisar de hospedeiro. Adware exibe propaganda. Keylogger captura teclas digitadas.",
+  "como_resolver": "Associe ao nome em inglês: ransom (resgate), spy (espião), worm (verme que se espalha), ad (anúncio), key + log (registro de teclas).",
+  "como_chutar": "O nome do malware quase sempre descreve o que ele faz. Traduza mentalmente."
+ },
+ {
+  "id": 54,
+  "disciplina": "Informática",
+  "cargo": "ambos",
+  "enunciado": "Sobre tipos de backup, assinale a alternativa correta.",
+  "alternativas": [
+   "O backup incremental copia todos os arquivos, independentemente de alterações.",
+   "O backup diferencial copia os arquivos alterados desde o último backup completo (normal).",
+   "O backup incremental copia apenas os arquivos alterados desde o último backup completo, ignorando incrementais anteriores.",
+   "O backup completo copia apenas arquivos novos.",
+   "O backup diferencial é sempre menor que o incremental."
+  ],
+  "gabarito": "B",
+  "comentario": "Completo: tudo. Diferencial: tudo o que mudou desde o último COMPLETO (vai crescendo a cada dia). Incremental: só o que mudou desde o último backup de QUALQUER tipo (completo ou incremental) – é o menor e mais rápido de fazer, porém a restauração exige o completo + todos os incrementais.",
+  "como_resolver": "DIFERENCIAL → compara com o COMPLETO. INCREMENTAL → compara com o ÚLTIMO backup qualquer.",
+  "como_chutar": "'Sempre', 'todos, independentemente' e 'apenas' em alternativas técnicas são sinais de erro. A correta tem a definição exata com o ponto de referência certo."
+ },
+ {
+  "id": 55,
+  "disciplina": "Medicina Legal",
+  "cargo": "ambos",
+  "enunciado": "Ferimentos produzidos por projéteis de arma de fogo são classificados, quanto ao instrumento, como lesões:",
+  "alternativas": [
+   "perfurocortantes.",
+   "cortocontundentes.",
+   "perfurocontundentes.",
+   "cortantes.",
+   "contusas."
+  ],
+  "gabarito": "C",
+  "comentario": "O projétil age perfurando e contundindo: lesão perfurocontundente. Faca de ponta e gume = perfurocortante. Facão, machado = cortocontundente. Navalha, bisturi = cortante. Pedra, bastão = contundente (lesão contusa). Agulha, prego fino = perfurante (punctória).",
+  "como_resolver": "Instrumento → lesão: perfurante → punctória; cortante → incisa; contundente → contusa; perfurocortante → perfuroincisa; cortocontundente → cortocontusa; perfurocontundente → perfurocontusa (arma de fogo).",
+  "como_chutar": "Pense no mecanismo físico: projétil não tem gume (descarte o que tem 'corto'), mas perfura e bate. Combine as duas ações."
+ },
+ {
+  "id": 56,
+  "disciplina": "Medicina Legal",
+  "cargo": "ambos",
+  "enunciado": "Segundo a Lei de Nysten, a rigidez cadavérica se instala, em regra, na seguinte sequência:",
+  "alternativas": [
+   "dos membros inferiores para a cabeça.",
+   "crânio-caudal: mandíbula e nuca, membros superiores, tronco e membros inferiores.",
+   "simultaneamente em todo o corpo, cerca de 30 minutos após a morte.",
+   "primeiro nos órgãos internos, só depois nos músculos esqueléticos visíveis.",
+   "de forma aleatória, sem ordem definida."
+  ],
+  "gabarito": "B",
+  "comentario": "A rigidez cadavérica obedece à Lei de Nysten: progressão crânio-caudal (mandíbula/nuca → membros superiores → tronco → membros inferiores). Inicia-se em torno de 1 a 2 horas, generaliza-se por volta de 8 horas e desaparece, em geral, entre 24 e 36 horas, na mesma ordem em que surgiu (com variações por temperatura e condições do corpo).",
+  "como_resolver": "Nysten = de cima para baixo. Desaparece na mesma ordem.",
+  "como_chutar": "Questões de tanatologia sobre 'ordem' quase sempre têm resposta 'crânio-caudal'. Alternativas 'simultâneo' ou 'aleatório' são distratores fracos."
+ },
+ {
+  "id": 57,
+  "disciplina": "Medicina Legal",
+  "cargo": "ambos",
+  "enunciado": "Em ferimento de entrada por projétil de arma de fogo, a presença de zona de tatuagem e zona de esfumaçamento ao redor do orifício indica, em regra, disparo:",
+  "alternativas": [
+   "a longa distância.",
+   "a curta distância (à queima-roupa).",
+   "encostado com câmara de mina obrigatória.",
+   "de projétil de ricochete, apenas.",
+   "de saída do projétil."
+  ],
+  "gabarito": "B",
+  "comentario": "Tatuagem (grãos de pólvora incrustados) e esfumaçamento (fuligem depositada) resultam dos resíduos da combustão que alcançam a pele quando o disparo é feito a curta distância. A longa distância, encontram-se apenas os elementos do projétil (orla de escoriação/contusão, orla de enxugo). No tiro encostado, os gases penetram e podem formar a câmara de mina de Hoffmann (em regiões com osso subjacente, como o crânio) e o sinal de Werkgaertner.",
+  "como_resolver": "Resíduos de pólvora na pele = arma perto. Só marcas do projétil = arma longe. Orifício de saída não tem tatuagem.",
+  "como_chutar": "Pense fisicamente: fuligem e pólvora não viajam longe. Se há fuligem na pele, a arma estava próxima."
+ },
+ {
+  "id": 58,
+  "disciplina": "Estatística",
+  "cargo": "ambos",
+  "enunciado": "Considere o conjunto de dados: 2, 3, 3, 5, 7. A média, a mediana e a moda são, respectivamente:",
+  "alternativas": [
+   "4, 3 e 3",
+   "4, 5 e 3",
+   "3, 3 e 4",
+   "4, 3 e 7",
+   "5, 3 e 3"
+  ],
+  "gabarito": "A",
+  "comentario": "Média = (2+3+3+5+7)/5 = 20/5 = 4. Mediana (dados ordenados, n ímpar) = termo central = 3. Moda = valor mais frequente = 3.",
+  "como_resolver": "Ordene os dados primeiro. Mediana: termo central (n ímpar) ou média dos dois centrais (n par).",
+  "como_chutar": "Calcule só a média (é a mais rápida) e elimine as alternativas que não começam com ela; depois confira a moda olhando o número que se repete."
+ },
+ {
+  "id": 59,
+  "disciplina": "Estatística",
+  "cargo": "ambos",
+  "enunciado": "Se a todos os valores de um conjunto de dados for somada a constante 10, o desvio-padrão do novo conjunto será:",
+  "alternativas": [
+   "acrescido de 10.",
+   "multiplicado por 10.",
+   "igual ao desvio-padrão original.",
+   "acrescido de 100.",
+   "nulo."
+  ],
+  "gabarito": "C",
+  "comentario": "Somar (ou subtrair) uma constante desloca todos os valores igualmente: a média muda, mas a dispersão não. Logo, variância e desvio-padrão permanecem iguais. Multiplicar por k multiplica o desvio-padrão por |k| e a variância por k².",
+  "como_resolver": "SOMA constante → média muda, dispersão NÃO. MULTIPLICA por k → média ×k, desvio ×k, variância ×k².",
+  "como_chutar": "Imagine uma fila de pessoas dando um passo à frente juntas: a distância entre elas não muda. Dispersão = distância entre os dados."
+ },
+ {
+  "id": 60,
+  "disciplina": "Estatística",
+  "cargo": "ambos",
+  "enunciado": "Em um conjunto de salários com poucos valores extremamente altos (outliers), a medida de tendência central MENOS afetada por esses valores é:",
+  "alternativas": [
+   "a média aritmética.",
+   "a mediana.",
+   "a amplitude.",
+   "a variância.",
+   "o desvio-padrão."
+  ],
+  "gabarito": "B",
+  "comentario": "A mediana depende apenas da posição central dos dados ordenados, por isso é robusta a valores extremos. A média é puxada pelos outliers. Amplitude, variância e desvio-padrão são medidas de DISPERSÃO, não de tendência central.",
+  "como_resolver": "Tendência central = média, mediana, moda. Com outliers, prefira a mediana.",
+  "como_chutar": "Se a pergunta é sobre 'tendência central', elimine as medidas de dispersão (amplitude, variância, desvio). Sobram média e mediana – e a média é a sensível a extremos."
+ },
+ {
+  "id": 61,
+  "disciplina": "Arquivologia",
+  "cargo": "escrivao",
+  "enunciado": "De acordo com a teoria das três idades e a Lei 8.159/1991, os documentos de valor permanente:",
+  "alternativas": [
+   "podem ser eliminados após 10 anos de guarda.",
+   "são inalienáveis e imprescritíveis.",
+   "permanecem obrigatoriamente no setor que os produziu.",
+   "são de uso frequente pela administração no dia a dia.",
+   "pertencem à fase intermediária."
+  ],
+  "gabarito": "B",
+  "comentario": "Art. 10 da Lei 8.159/91: os documentos de valor permanente são inalienáveis e imprescritíveis. Teoria das três idades: corrente (uso frequente, junto ao setor produtor), intermediária (uso esporádico, aguardando prazo de guarda) e permanente (valor histórico, probatório e informativo; recolhidos ao arquivo permanente e nunca eliminados).",
+  "como_resolver": "Corrente = uso frequente. Intermediária = uso raro, aguarda destinação. Permanente = guarda para sempre.",
+  "como_chutar": "'Permanente' já diz: não pode ser eliminado. Descarte qualquer alternativa que fale em eliminação."
+ },
+ {
+  "id": 62,
+  "disciplina": "Arquivologia",
+  "cargo": "escrivao",
+  "enunciado": "O princípio arquivístico segundo o qual os documentos produzidos por uma entidade não devem ser misturados aos de outras entidades denomina-se:",
+  "alternativas": [
+   "princípio da ordem original.",
+   "princípio da proveniência (ou respeito aos fundos).",
+   "princípio da cumulatividade.",
+   "princípio da indivisibilidade.",
+   "princípio da pertinência temática."
+  ],
+  "gabarito": "B",
+  "comentario": "Proveniência (respeito aos fundos): o arquivo de uma entidade deve manter sua individualidade, sem misturar-se a outros. Ordem original (respeito à ordem interna): manter a ordem dada pelo produtor. Organicidade, unicidade, cumulatividade e indivisibilidade são outras características/princípios. 'Pertinência temática' é critério de biblioteca/coleção, contrário à lógica arquivística.",
+  "como_resolver": "PROVENIÊNCIA = de onde veio (origem/produtor). ORDEM ORIGINAL = como estava organizado.",
+  "como_chutar": "O enunciado fala de 'entidade produtora' e 'não misturar com outras' → origem → proveniência."
+ },
+ {
+  "id": 63,
+  "disciplina": "Contabilidade",
+  "cargo": "investigador",
+  "enunciado": "Uma empresa apresenta Ativo de R$ 250.000,00 e Passivo (exigível) de R$ 170.000,00. O valor do Patrimônio Líquido é:",
+  "alternativas": [
+   "R$ 420.000,00",
+   "R$ 80.000,00",
+   "R$ 170.000,00",
+   "R$ 250.000,00",
+   "R$ 0,00"
+  ],
+  "gabarito": "B",
+  "comentario": "Equação fundamental do patrimônio: Ativo = Passivo + Patrimônio Líquido. Logo, PL = 250.000 − 170.000 = 80.000. Situação líquida positiva (ativo maior que passivo).",
+  "como_resolver": "A = P + PL. Isole o que a questão pede.",
+  "como_chutar": "Somar Ativo e Passivo (420.000) é o erro clássico. O PL é sempre a DIFERENÇA."
+ },
+ {
+  "id": 64,
+  "disciplina": "Contabilidade",
+  "cargo": "investigador",
+  "enunciado": "Pelo método das partidas dobradas, o aumento de uma conta do Ativo é registrado a:",
+  "alternativas": [
+   "crédito, assim como o aumento de despesas.",
+   "débito, assim como o aumento de despesas.",
+   "crédito, assim como o aumento de receitas.",
+   "débito, assim como o aumento do Passivo.",
+   "crédito, assim como o aumento do Patrimônio Líquido."
+  ],
+  "gabarito": "B",
+  "comentario": "Contas de natureza devedora (Ativo e Despesas) aumentam a DÉBITO e diminuem a crédito. Contas de natureza credora (Passivo, PL e Receitas) aumentam a CRÉDITO e diminuem a débito.",
+  "como_resolver": "Devedoras: Ativo + Despesa (AD → aumenta Débito). Credoras: Passivo, PL, Receita (aumentam a Crédito).",
+  "como_chutar": "Ativo e despesa andam sempre juntos (ambos 'devedores'). Procure a alternativa que os coloca no mesmo lado com débito."
+ },
+ {
+  "id": 65,
+  "disciplina": "Legislação da Bahia (Lei 6.677/94)",
+  "cargo": "ambos",
+  "enunciado": "Segundo o Estatuto dos Servidores Públicos Civis do Estado da Bahia (Lei 6.677/1994), são formas de provimento de cargo público:",
+  "alternativas": [
+   "nomeação, reversão, aproveitamento, reintegração e recondução.",
+   "nomeação, promoção, readaptação, remoção e redistribuição.",
+   "nomeação, exoneração, demissão, aposentadoria e falecimento.",
+   "nomeação, posse, exercício, estágio probatório e estabilidade.",
+   "nomeação, relotação, remoção, substituição e recondução."
+  ],
+  "gabarito": "A",
+  "comentario": "Art. 10 da Lei 6.677/94: as formas de provimento são nomeação, reversão, aproveitamento, reintegração e recondução. Exoneração, demissão, aposentadoria e falecimento são formas de VACÂNCIA (art. 44). Remoção e relotação são formas de movimentação, não de provimento. Atenção: diferente da Lei 8.112/90 federal, o estatuto baiano não lista promoção nem readaptação entre as formas de provimento.",
+  "como_resolver": "Provimento = o servidor ENTRA no cargo (NRARR: Nomeação, Reversão, Aproveitamento, Reintegração, Recondução). Vacância = o cargo FICA VAGO (exoneração, demissão, aposentadoria, falecimento).",
+  "como_chutar": "Elimine as listas que misturam institutos de saída (exoneração, demissão) ou de deslocamento (remoção, relotação) – provimento é sempre 'entrada'. Cuidado com a pegadinha da lei federal (promoção, readaptação)."
+ },
+ {
+  "id": 66,
+  "disciplina": "Legislação da Bahia (Lei 6.677/94)",
+  "cargo": "ambos",
+  "enunciado": "Conforme a Lei 6.677/1994, a posse e o exercício do servidor nomeado observam os seguintes prazos:",
+  "alternativas": [
+   "posse em até 15 dias da nomeação e exercício em até 15 dias da posse.",
+   "posse em até 30 dias contados da publicação do ato de nomeação, prorrogável por mais 30 dias a pedido do interessado, e exercício em até 30 dias contados da posse.",
+   "posse em até 30 dias, improrrogável, e exercício imediato.",
+   "posse em até 60 dias e exercício em até 30 dias da nomeação.",
+   "posse em até 30 dias e exercício em até 15 dias da posse, como na Lei 8.112/1990."
+  ],
+  "gabarito": "B",
+  "comentario": "Art. 19 da Lei 6.677/94: a posse deverá ocorrer em até 30 dias contados da publicação do ato de nomeação no órgão oficial, prorrogável por mais 30 dias a requerimento do interessado. Art. 21, §1º: o prazo para entrar em exercício é de 30 dias contados da posse (ou da publicação do ato de provimento, quando a posse não for exigível). Na lei federal 8.112/90 o exercício é de 15 dias – essa é a pegadinha.",
+  "como_resolver": "Bahia = 30 / 30 / 30: posse em 30 (+30 de prorrogação) e exercício em 30.",
+  "como_chutar": "Quando a banca põe a alternativa 'como na Lei 8.112', é sinal de que o estatuto estadual é DIFERENTE da lei federal naquele ponto. Prefira a alternativa com o detalhe da prorrogação 'a pedido do interessado', típico de redação legal."
+ },
+ {
+  "id": 67,
+  "disciplina": "Legislação da Bahia (Lei 6.677/94)",
+  "cargo": "ambos",
+  "enunciado": "Nos termos da Lei 6.677/1994, o servidor nomeado para cargo de provimento permanente, em virtude de concurso público:",
+  "alternativas": [
+   "fica sujeito a estágio probatório de 2 anos e adquire estabilidade ao completar 2 anos de efetivo exercício.",
+   "fica sujeito a estágio probatório de 3 anos e adquire estabilidade ao completar 3 anos de efetivo exercício.",
+   "adquire estabilidade no ato da posse.",
+   "fica sujeito a estágio probatório de 1 ano, prorrogável por mais 1 ano.",
+   "só pode perder o cargo, durante o estágio, por sentença judicial transitada em julgado."
+  ],
+  "gabarito": "B",
+  "comentario": "Art. 27: estágio probatório de 3 anos. Art. 28: estabilidade ao completar 3 anos de efetivo exercício (em harmonia com o art. 41 da CF). Art. 29: o servidor estável só perde o cargo por sentença judicial transitada em julgado ou por processo administrativo disciplinar com ampla defesa. O servidor em estágio que não satisfaz as condições é exonerado.",
+  "como_resolver": "Estágio = 3 anos = estabilidade. Os números andam juntos desde a EC 19/1998.",
+  "como_chutar": "O número '2 anos' é a regra antiga (antes da EC 19/98) e aparece como distrator. Se as alternativas trazem estágio e estabilidade com o mesmo número, a de 3 anos é a atual."
+ },
+ {
+  "id": 68,
+  "disciplina": "Legislação da Bahia (Lei 6.677/94)",
+  "cargo": "ambos",
+  "enunciado": "Investigador de polícia, servidor estável, foi demitido. Anos depois, a demissão foi invalidada por sentença judicial transitada em julgado, e ele retornou ao cargo anteriormente ocupado. De acordo com a Lei 6.677/1994, essa forma de provimento denomina-se:",
+  "alternativas": [
+   "reversão.",
+   "recondução.",
+   "reintegração.",
+   "aproveitamento.",
+   "readaptação."
+  ],
+  "gabarito": "C",
+  "comentario": "Art. 41: reintegração é o retorno do servidor demitido ao cargo anteriormente ocupado, quando invalidada a demissão por sentença judicial transitada em julgado (ou por decisão administrativa, na forma da lei). Reversão = retorno do aposentado por invalidez quando cessam os motivos (art. 34). Recondução = retorno do estável ao cargo anterior por causa da reintegração do antigo ocupante (art. 42). Aproveitamento = retorno do servidor em disponibilidade (art. 38). Readaptação = novas atribuições compatíveis com limitação física ou mental (art. 43).",
+  "como_resolver": "DEMITIDO que volta = REintegração. APOSENTADO que volta = REversão. Quem 'sai da vaga' porque o antigo dono voltou = REcondução. DISPONÍVEL que volta = aproveitamento.",
+  "como_chutar": "Procure no enunciado QUEM está voltando (demitido, aposentado, disponível) – cada instituto corresponde a um tipo de servidor."
+ },
+ {
+  "id": 69,
+  "disciplina": "Legislação da Bahia (Lei 6.677/94)",
+  "cargo": "ambos",
+  "enunciado": "Segundo a Lei 6.677/1994, as férias anuais do servidor serão de 30 dias corridos quando ele, no período aquisitivo, não tiver tido mais de:",
+  "alternativas": [
+   "5 faltas.",
+   "10 faltas.",
+   "3 faltas.",
+   "15 faltas.",
+   "nenhuma falta."
+  ],
+  "gabarito": "A",
+  "comentario": "Art. 93, §1º, da Lei 6.677/94: 30 dias corridos quando não houver mais de 5 faltas. Com mais faltas, o período cai para 24, 18 e 12 dias (faixas de 6 a 14, 15 a 23 e 24 a 32 faltas). É uma regra parecida com a da CLT e diferente da lei federal.",
+  "como_resolver": "Férias BA: até 5 faltas = 30 dias; depois 24, 18 e 12, de 6 em 6 dias a menos.",
+  "como_chutar": "Questão de número puro: se você só lembra que a regra se parece com a da CLT, marque 5. 'Nenhuma falta' é rigoroso demais para a lei."
+ },
+ {
+  "id": 70,
+  "disciplina": "Legislação da Bahia (Lei 6.677/94)",
+  "cargo": "ambos",
+  "enunciado": "São penalidades disciplinares previstas para o servidor público civil do Estado da Bahia:",
+  "alternativas": [
+   "advertência, multa, prisão administrativa e demissão.",
+   "advertência, suspensão, demissão e cassação de aposentadoria ou disponibilidade.",
+   "repreensão, detenção, demissão e exoneração.",
+   "advertência, suspensão de até 180 dias e exoneração a bem do serviço público.",
+   "advertência verbal, suspensão, rebaixamento de classe e demissão."
+  ],
+  "gabarito": "B",
+  "comentario": "O estatuto baiano (e também a Lei Orgânica da PC-BA para os policiais civis) prevê advertência, suspensão, demissão e cassação de aposentadoria ou disponibilidade. A suspensão não pode exceder 90 dias. Exoneração NÃO é penalidade (é forma de vacância a pedido ou de ofício, sem caráter punitivo). Prisão administrativa não existe para servidor civil.",
+  "como_resolver": "Penalidades: A-S-D-C (Advertência, Suspensão, Demissão, Cassação). Suspensão máxima: 90 dias.",
+  "como_chutar": "Elimine qualquer alternativa com 'exoneração' (não é pena) ou 'prisão' (servidor civil não sofre prisão disciplinar). Desconfie de prazos de suspensão diferentes de 90 dias."
+ },
+ {
+  "id": 71,
+  "disciplina": "Legislação da Bahia (Lei 6.677/94)",
+  "cargo": "ambos",
+  "enunciado": "Um investigador, sem autorização do delegado, retira da delegacia os autos de um inquérito policial e os leva para casa. A conduta não se enquadra em nenhuma hipótese de demissão, mas viola proibição funcional. Considerando o regime disciplinar aplicável, a penalidade cabível, em regra, é:",
+  "alternativas": [
+   "demissão, por ser falta grave contra a Administração.",
+   "suspensão, que não poderá exceder 90 dias.",
+   "cassação da disponibilidade.",
+   "multa, convertida em suspensão.",
+   "nenhuma, pois não houve prejuízo ao erário."
+  ],
+  "gabarito": "B",
+  "comentario": "Situação parecida foi cobrada na prova de Investigador de 2018. Retirar documento ou processo da repartição sem prévia anuência da autoridade competente é proibição funcional. Fora das hipóteses de demissão, a violação de proibição é punida com advertência ou suspensão; o gabarito daquela prova apontou a suspensão, limitada a 90 dias. O prejuízo ao erário não é requisito para a punição.",
+  "como_resolver": "Pergunte: é caso listado de demissão (crime contra a Administração, abandono, improbidade, etc.)? Se não, a pena fica entre advertência e suspensão (máximo de 90 dias).",
+  "como_chutar": "Quando o próprio enunciado diz 'não se enquadra em hipótese de demissão', elimine demissão e cassação. Entre o que sobra, escolha a pena que vem acompanhada do limite legal correto (90 dias)."
+ },
+ {
+  "id": 72,
+  "disciplina": "Legislação da Bahia (Lei 11.370/09)",
+  "cargo": "ambos",
+  "enunciado": "Segundo a Lei 11.370/2009 (Lei Orgânica da Polícia Civil da Bahia), a Polícia Civil é:",
+  "alternativas": [
+   "autarquia estadual vinculada à Secretaria da Administração.",
+   "órgão em regime especial de administração direta, subordinado à Secretaria da Segurança Pública.",
+   "fundação pública de direito privado vinculada ao Governador.",
+   "órgão da administração indireta, com autonomia financeira plena.",
+   "órgão subordinado à Polícia Militar no âmbito do sistema de segurança."
+  ],
+  "gabarito": "B",
+  "comentario": "Art. 2º da Lei 11.370/09: a Polícia Civil é Órgão em Regime Especial de Administração Direta, subordinado à Secretaria da Segurança Pública. O art. 4º acrescenta que é instituição essencial à função jurisdicional do Estado e exerce, com exclusividade, as funções de polícia judiciária, ressalvada a competência da União.",
+  "como_resolver": "PC-BA = administração DIRETA (regime especial) + subordinada à SSP.",
+  "como_chutar": "Polícia exerce poder de polícia e investigação criminal – funções típicas de Estado, que não cabem a fundações privadas ou entes com 'autonomia plena'. Elimine os entes da administração indireta."
+ },
+ {
+  "id": 73,
+  "disciplina": "Legislação da Bahia (Lei 11.370/09)",
+  "cargo": "ambos",
+  "enunciado": "NÃO figura entre os princípios institucionais da Polícia Civil da Bahia, previstos no art. 3º da Lei 11.370/2009:",
+  "alternativas": [
+   "hierarquia e disciplina funcionais.",
+   "indivisibilidade institucional e investigativa.",
+   "indelegabilidade das atribuições funcionais.",
+   "proteção e promoção da dignidade da pessoa humana.",
+   "subordinação técnica ao Ministério Público na condução das investigações."
+  ],
+  "gabarito": "E",
+  "comentario": "O art. 3º lista doze princípios: legalidade, impessoalidade, moralidade, eficiência, hierarquia funcional, disciplina funcional, unidade de doutrina e unidade técnico-científica aplicadas à investigação, indivisibilidade institucional e investigativa, interdisciplinaridade da investigação, indelegabilidade das atribuições funcionais, proteção e promoção da dignidade da pessoa humana e autonomia na execução da atividade policial. Subordinação ao MP contraria a própria autonomia prevista.",
+  "como_resolver": "Lembre dos grupos: LIME (princípios do art. 37) + hierarquia e disciplina + unidade, indivisibilidade, interdisciplinaridade + indelegabilidade + dignidade humana + autonomia.",
+  "como_chutar": "A alternativa que contradiz um princípio da lista (autonomia x subordinação) é a resposta em questão de 'NÃO figura'."
+ },
+ {
+  "id": 74,
+  "disciplina": "Legislação da Bahia (Lei 11.370/09)",
+  "cargo": "ambos",
+  "enunciado": "De acordo com a Lei 11.370/2009, o Delegado-Geral da Polícia Civil será nomeado:",
+  "alternativas": [
+   "pelo Secretário da Segurança Pública, dentre delegados de qualquer classe.",
+   "pelo Governador do Estado, dentre Delegados de Polícia da classe Especial, em atividade.",
+   "pela Assembleia Legislativa, após sabatina.",
+   "pelo Conselho Superior da Polícia Civil, por eleição entre seus membros.",
+   "pelo Governador, dentre bacharéis em Direito com 10 anos de atividade jurídica."
+  ],
+  "gabarito": "B",
+  "comentario": "Pela Lei Orgânica, o Delegado-Geral é nomeado pelo Governador entre Delegados de Polícia da classe Especial, da ativa. O Delegado-Geral Adjunto também é nomeado pelo Governador, com o mesmo requisito. O Conselho Superior é presidido pelo Delegado-Geral, mas não o escolhe.",
+  "como_resolver": "Chefe da PC-BA = Governador escolhe + Delegado de classe ESPECIAL + da ATIVA.",
+  "como_chutar": "A chefia de órgão do Executivo é de livre escolha do chefe do Executivo (Governador), normalmente com requisito de carreira. Elimine Assembleia e eleição interna."
+ },
+ {
+  "id": 75,
+  "disciplina": "Legislação da Bahia (Lei 11.370/09)",
+  "cargo": "escrivao",
+  "enunciado": "Conforme a Lei 11.370/2009, constitui atribuição do cargo de Escrivão de Polícia:",
+  "alternativas": [
+   "presidir o inquérito policial na ausência do delegado.",
+   "emitir guia de recolhimento, quando legalmente autorizado e determinado pela autoridade policial.",
+   "realizar exame de corpo de delito.",
+   "decretar a incomunicabilidade do preso.",
+   "conceder fiança nos crimes punidos com detenção."
+  ],
+  "gabarito": "B",
+  "comentario": "Essa atribuição foi exatamente o gabarito da prova de Escrivão de 2018. Entre as atribuições do escrivão estão: lavrar autos e termos do inquérito e do termo circunstanciado, expedir certidões quando autorizado, guardar autos, armas e objetos apreendidos sob sua responsabilidade, manter registros atualizados, emitir guia de recolhimento quando autorizado, requisitar perícias e acompanhar a autoridade policial. Presidir inquérito e conceder fiança são atos do delegado; exame de corpo de delito é do perito.",
+  "como_resolver": "Escrivão = formaliza, registra, guarda e certifica. Decide = delegado. Examina = perito.",
+  "como_chutar": "Elimine tudo que é decisão (presidir, decretar, conceder) – é privativo do delegado ou do juiz. Sobra a tarefa cartorária."
+ },
+ {
+  "id": 76,
+  "disciplina": "Legislação da Bahia (Lei 11.370/09)",
+  "cargo": "investigador",
+  "enunciado": "Conforme a Lei 11.370/2009, é atribuição do cargo de Investigador de Polícia:",
+  "alternativas": [
+   "participar de estudos, projetos e pesquisas de natureza técnica ou especializada sobre ciências criminais, inteligência policial e estatística criminal.",
+   "elaborar laudos de necropsia.",
+   "realizar exames papiloscópicos com emissão de laudo pericial.",
+   "presidir o auto de prisão em flagrante.",
+   "investigar exclusivamente crimes militares."
+  ],
+  "gabarito": "A",
+  "comentario": "Foi o gabarito da prova de Investigador de 2018. Outras atribuições do investigador: realizar investigação criminal (exceto a militar), participar de levantamentos de local de crime, zelar pela segurança dos presos, cumprir mandados e ordens, efetuar prisões e buscas pessoais, elaborar relatórios de investigação, participar de operações de resgate de reféns e conduzir viaturas em missão. Laudos são de peritos; o auto de prisão é presidido pelo delegado.",
+  "como_resolver": "Investigador = investiga, faz diligências, prende, cumpre mandado, relata, participa de inteligência e estatística criminal. Laudo = perito. Presidir = delegado.",
+  "como_chutar": "'Exclusivamente crimes militares' contraria a CF (a PC investiga tudo, EXCETO os militares). Atividades de laudo pertencem a peritos. Elimine e sobra a correta."
+ },
+ {
+  "id": 77,
+  "disciplina": "Legislação da Bahia (Lei 11.370/09)",
+  "cargo": "ambos",
+  "enunciado": "Sobre as prerrogativas e o regime jurídico do policial civil na Lei 11.370/2009, é correto afirmar:",
+  "alternativas": [
+   "o policial civil não possui porte de arma de fogo na inatividade.",
+   "em caso de prisão em flagrante ou provisória, o policial civil será recolhido em dependências da Corregedoria da Polícia Civil, separado dos presos comuns.",
+   "o investigador é hierarquicamente superior ao escrivão da mesma classe.",
+   "as carreiras de investigador e escrivão não possuem classes.",
+   "a Corregedoria não tem competência para cumprir mandados de prisão contra policiais civis."
+  ],
+  "gabarito": "B",
+  "comentario": "A Lei Orgânica assegura o recolhimento do policial preso em flagrante ou provisoriamente em dependências da Corregedoria, separado dos presos comuns. Também prevê porte de arma na atividade e na inatividade (na forma da legislação). Investigador, Escrivão e Perito Técnico da mesma classe têm o mesmo nível hierárquico, e as carreiras se organizam em classes (Especial, I, II e III). Cumprir mandados de prisão contra policiais civis é competência da Corregedoria.",
+  "como_resolver": "Prerrogativas: porte de arma (ativa e inativa), identidade funcional, livre acesso em diligência, recolhimento na Corregedoria em caso de prisão.",
+  "como_chutar": "Em questões de prerrogativas, alternativas que RETIRAM garantias da categoria costumam ser as falsas. A correta tende a conferir proteção."
+ },
+ {
+  "id": 78,
+  "disciplina": "Legislação da Bahia (Lei 11.370/09)",
+  "cargo": "ambos",
+  "enunciado": "No regime disciplinar dos policiais civis da Bahia, a ação disciplinar prescreve em:",
+  "alternativas": [
+   "5 anos quanto à demissão e à cassação de aposentadoria ou disponibilidade; 2 anos quanto à suspensão; 180 dias quanto à advertência.",
+   "10 anos para qualquer penalidade.",
+   "2 anos quanto à demissão e 5 anos quanto à advertência.",
+   "1 ano para todas as penalidades.",
+   "é imprescritível em relação a qualquer penalidade."
+  ],
+  "gabarito": "A",
+  "comentario": "Prazos prescricionais: 5 anos (demissão e cassação), 2 anos (suspensão) e 180 dias (advertência). O padrão é o mesmo da Lei 8.112/90. Quando a infração também for crime, aplicam-se os prazos da lei penal.",
+  "como_resolver": "Escadinha: quanto mais grave a pena, maior o prazo – 5 anos / 2 anos / 180 dias.",
+  "como_chutar": "Lógica de proporcionalidade: pena mais grave prescreve em prazo maior. Alternativa que inverte a ordem (demissão com prazo menor que advertência) está errada; 'imprescritível' é exceção constitucional rara."
+ },
+ {
+  "id": 79,
+  "disciplina": "Atualidades",
+  "cargo": "ambos",
+  "enunciado": "Nas eleições gerais de 4 de outubro de 2026, o governo da Bahia foi decidido:",
+  "alternativas": [
+   "no primeiro turno, com a reeleição de Jerônimo Rodrigues (PT), que superou ACM Neto (União).",
+   "no segundo turno, com a vitória de ACM Neto (União).",
+   "por eleição indireta na Assembleia Legislativa.",
+   "no primeiro turno, com a eleição de ACM Neto (União), que superou Jerônimo Rodrigues (PT).",
+   "no segundo turno, marcado para dezembro."
+  ],
+  "gabarito": "A",
+  "comentario": "Jerônimo Rodrigues (PT) foi reeleito no primeiro turno com cerca de 55% dos votos válidos, contra cerca de 44% de ACM Neto (União), segundo o TSE. Para presidente, houve segundo turno entre Lula (PT) e Flávio Bolsonaro (PL), marcado para o último domingo de outubro (25/10/2026).",
+  "como_resolver": "Atualidades da Bahia: saiba quem governa, quem perdeu e os números arredondados. Segundo turno, quando há, é sempre no último domingo de outubro (CF, art. 77).",
+  "como_chutar": "Elimine o absurdo institucional (eleição indireta, 2º turno em dezembro). Entre as duas opções de 1º turno, ajuda saber que o governador era candidato à reeleição."
+ },
+ {
+  "id": 80,
+  "disciplina": "Atualidades",
+  "cargo": "ambos",
+  "enunciado": "A chamada PEC da Segurança Pública (PEC 18/2025), aprovada em dois turnos pela Câmara dos Deputados em março de 2026, prevê, entre outros pontos:",
+  "alternativas": [
+   "a extinção das polícias civis estaduais e sua incorporação à Polícia Federal.",
+   "a inclusão de polícias municipais no rol do art. 144 da Constituição e a ampliação da atuação da PRF para ferrovias e hidrovias federais.",
+   "a unificação das polícias militares e civis em uma polícia única estadual.",
+   "a transferência da segurança pública para competência exclusiva da União.",
+   "a criação da Polícia Viária Federal em substituição à PRF, com novo nome aprovado pela Câmara."
+  ],
+  "gabarito": "B",
+  "comentario": "O texto aprovado na Câmara (461 votos a 14, em 4/3/2026) prevê polícias municipais de carreira, com requisitos de capacidade financeira e formação, inseridas no art. 144; amplia a atuação da PRF para ferrovias e hidrovias federais (mantido o nome PRF, embora o governo propusesse 'Polícia Viária Federal'); reforça a atuação da PF contra organizações criminosas e milícias interestaduais; e destina parte da arrecadação das apostas (bets) aos fundos de segurança e penitenciário. A proposta seguiu para o Senado, onde a CCJ aprovou o texto-base em setembro de 2026 – confira o andamento atualizado antes da prova.",
+  "como_resolver": "PEC da Segurança: polícias municipais + PRF ampliada (ferrovias/hidrovias) + PF contra crime organizado + dinheiro das bets para os fundos.",
+  "como_chutar": "Mudanças radicais (extinguir polícias civis, unificar polícias, centralizar tudo na União) não passariam com folga num Congresso que precisa de 3/5. Elimine-as."
+ },
+ {
+  "id": 81,
+  "disciplina": "Atualidades",
+  "cargo": "ambos",
+  "enunciado": "O chamado 'ECA Digital' (Lei 15.211/2025), que entrou em vigor em março de 2026, tem como objetivo principal:",
+  "alternativas": [
+   "regular a proteção de crianças e adolescentes em ambientes digitais, impondo deveres a plataformas, aplicativos e jogos eletrônicos.",
+   "reduzir a maioridade penal para crimes cibernéticos.",
+   "proibir o uso de celulares por menores de 18 anos em todo o território nacional.",
+   "criar a Polícia Federal Digital.",
+   "substituir integralmente o Estatuto da Criança e do Adolescente de 1990."
+  ],
+  "gabarito": "A",
+  "comentario": "O Estatuto Digital da Criança e do Adolescente (Lei 15.211/2025) estabelece regras para produtos e serviços digitais acessados por crianças e adolescentes, como verificação de idade, supervisão parental e restrições a conteúdos e práticas nocivas. Entrou em vigor em 17/03/2026. Ele complementa, e não substitui, o ECA (Lei 8.069/1990).",
+  "como_resolver": "ECA Digital = proteção de crianças na internet, com deveres para as plataformas.",
+  "como_chutar": "Leis com apelido 'Digital' que complementam outra lei raramente a 'substituem integralmente'. Proibições totais e redução de maioridade não cabem em lei ordinária desse tipo."
+ },
+ {
+  "id": 82,
+  "disciplina": "Atualidades",
+  "cargo": "ambos",
+  "enunciado": "Sobre a Copa do Mundo de futebol masculino de 2026, é correto afirmar:",
+  "alternativas": [
+   "foi disputada por 32 seleções, no Catar.",
+   "foi a primeira com 48 seleções e teve como sedes Estados Unidos, Canadá e México.",
+   "foi sediada exclusivamente no México.",
+   "foi disputada no Brasil, Argentina e Uruguai.",
+   "teve como sedes Portugal, Espanha e Marrocos."
+  ],
+  "gabarito": "B",
+  "comentario": "A Copa de 2026 foi a primeira com 48 seleções e teve sede tripla: Estados Unidos, Canadá e México, com final em 19 de julho, no MetLife Stadium (região de Nova York). Portugal, Espanha e Marrocos sediarão a Copa de 2030, que terá jogos comemorativos de abertura na Argentina, no Paraguai e no Uruguai (centenário da primeira Copa). O Catar sediou a de 2022, com 32 seleções.",
+  "como_resolver": "2022 Catar (32) → 2026 EUA/Canadá/México (48) → 2030 Portugal/Espanha/Marrocos (+ jogos na América do Sul).",
+  "como_chutar": "Os distratores costumam ser sedes de outras Copas. Se você lembrar de UMA sede vizinha (2022 ou 2030), elimina por exclusão."
+ },
+ {
+  "id": 83,
+  "disciplina": "Atualidades",
+  "cargo": "ambos",
+  "enunciado": "A 30ª Conferência das Nações Unidas sobre Mudança do Clima (COP30), realizada em novembro de 2025, teve como sede a cidade de:",
+  "alternativas": [
+   "Salvador (BA).",
+   "Belém (PA).",
+   "Manaus (AM).",
+   "Rio de Janeiro (RJ).",
+   "Brasília (DF)."
+  ],
+  "gabarito": "B",
+  "comentario": "A COP30 foi realizada em Belém, no Pará, em novembro de 2025 – a primeira COP na Amazônia. Temas centrais: financiamento climático, transição energética, proteção de florestas tropicais e adaptação às mudanças climáticas.",
+  "como_resolver": "COP30 = Belém = Amazônia.",
+  "como_chutar": "A escolha simbólica da sede era a Amazônia: entre as capitais amazônicas listadas, a cidade que a mídia mais citou foi Belém."
+ },
+ {
+  "id": 84,
+  "disciplina": "Atualidades",
+  "cargo": "ambos",
+  "enunciado": "A reforma tributária sobre o consumo (EC 132/2023 e LC 214/2025) criou um modelo de IVA dual. Nesse modelo:",
+  "alternativas": [
+   "a CBS, federal, substitui PIS, Cofins e IPI (este, em regra), e o IBS, de estados e municípios, substitui ICMS e ISS, com 2026 como ano de teste.",
+   "o ICMS foi mantido e apenas o ISS foi extinto.",
+   "todos os tributos sobre consumo passaram a ser municipais.",
+   "o Imposto de Renda foi substituído pela CBS.",
+   "o IBS é cobrado exclusivamente pela União."
+  ],
+  "gabarito": "A",
+  "comentario": "O IVA dual tem a CBS (Contribuição sobre Bens e Serviços, federal) e o IBS (Imposto sobre Bens e Serviços, compartilhado entre estados, DF e municípios). A transição começou em 2026, ano de teste com alíquotas simbólicas, e vai até 2033, quando ICMS e ISS deixam de existir. Também foi criado o Imposto Seletivo sobre produtos prejudiciais à saúde e ao meio ambiente.",
+  "como_resolver": "CBS = federal (no lugar de PIS/Cofins). IBS = estados + municípios (no lugar de ICMS/ISS). Transição 2026–2033.",
+  "como_chutar": "O nome 'IVA DUAL' já diz: dois tributos, um federal e outro subnacional. Elimine alternativas com um só ente ou que mexem no Imposto de Renda (renda não é consumo)."
+ },
+ {
+  "id": 85,
+  "disciplina": "Atualidades",
+  "cargo": "ambos",
+  "enunciado": "Em 2025, o STF julgou a constitucionalidade do art. 19 do Marco Civil da Internet, que condicionava a responsabilidade civil das plataformas à existência de ordem judicial para remoção de conteúdo. O Tribunal entendeu que:",
+  "alternativas": [
+   "o artigo é integralmente constitucional e as plataformas nunca respondem por conteúdo de terceiros.",
+   "o artigo é parcialmente inconstitucional, e as plataformas podem ser responsabilizadas em certos casos sem ordem judicial prévia, como diante de conteúdos ilícitos graves ou após notificação.",
+   "as plataformas passaram a ser responsáveis criminalmente por qualquer publicação dos usuários.",
+   "o Marco Civil foi revogado e substituído pelo ECA Digital.",
+   "as redes sociais foram proibidas de operar no Brasil sem autorização do STF."
+  ],
+  "gabarito": "B",
+  "comentario": "O STF declarou o art. 19 parcialmente inconstitucional: a exigência de ordem judicial prévia deixou de ser regra absoluta. Em diversos casos (crimes e atos ilícitos graves, como ataques à democracia, terrorismo, discurso de ódio, pornografia infantil), as plataformas têm dever de cuidado e podem responder se não agirem após notificação ou se houver falha sistêmica. Crimes contra a honra continuam exigindo ordem judicial.",
+  "como_resolver": "STF 2025: art. 19 parcialmente inconstitucional → mais responsabilidade das plataformas, sem chegar à responsabilização total.",
+  "como_chutar": "Decisões do STF sobre temas polêmicos costumam ser intermediárias ('parcialmente', 'em certos casos'). Extremos ('nunca', 'qualquer publicação', 'proibidas') tendem a estar errados."
+ },
+ {
+  "id": 86,
+  "disciplina": "Atualidades",
+  "cargo": "ambos",
+  "enunciado": "Na eleição presidencial de 2026, segundo a Constituição Federal, o segundo turno é realizado:",
+  "alternativas": [
+   "no primeiro domingo de novembro.",
+   "no último domingo de outubro, entre os dois candidatos mais votados, quando nenhum obtiver maioria absoluta dos votos válidos no primeiro turno.",
+   "15 dias após o primeiro turno, entre os três mais votados.",
+   "somente se houver empate no primeiro turno.",
+   "no último domingo de novembro."
+  ],
+  "gabarito": "B",
+  "comentario": "CF, art. 77: a eleição ocorre no primeiro domingo de outubro e, se nenhum candidato alcançar maioria absoluta dos votos válidos (excluídos brancos e nulos), há segundo turno no último domingo de outubro entre os dois mais votados. Em 2026, o 1º turno foi em 4/10 e o 2º turno, entre Lula (PT) e Flávio Bolsonaro (PL), em 25/10.",
+  "como_resolver": "1º turno: 1º domingo de outubro. 2º turno: último domingo de outubro. Maioria ABSOLUTA dos votos VÁLIDOS.",
+  "como_chutar": "Segundo turno é sempre entre DOIS candidatos. Elimine 'três' e 'só se houver empate'."
+ }
+]
