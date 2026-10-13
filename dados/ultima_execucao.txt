@@ -1,1 +1,1 @@
-13/10/2026 04:34 | diagnóstico: 0 mensagens lidas; pendentes=0; webhook=não; chat salvo=sim
+13/10/2026 10:15 | responder OK: 1 mensagens lidas; atendidos: questoes
