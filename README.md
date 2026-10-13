@@ -56,6 +56,10 @@ Abra a execução na aba **Actions** e leia a mensagem:
 
 ---
 
+## Opção: hospedar no Cloudflare Workers (resposta instantânea 24h)
+
+O código está pronto em [`cloudflare/worker.js`](cloudflare/worker.js), e o passo a passo, em [`cloudflare/GUIA.md`](cloudflare/GUIA.md). São uns 15 minutos pelo navegador, sem instalar nada.
+
 ## Para quem quiser rodar no próprio computador (opcional)
 
 Requer Python 3.9+, sem bibliotecas extras.
