@@ -2,7 +2,8 @@
 """
 Atende pedidos feitos no Telegram ao @Meupcba_bot.
 
-Roda a cada 5 minutos (GitHub Actions). Lê as mensagens novas e:
+Fica escutando o Telegram (long polling) por até algumas horas por execução;
+o GitHub Actions emenda uma execução na outra. Lê as mensagens novas e:
   • "estudo" (ou "/estudo") → envia 5 questões que você ainda não recebeu
   • "discursiva" → envia uma discursiva com correção
   • "/start" ou "ajuda" → explica os comandos
@@ -11,7 +12,9 @@ Só responde ao seu chat (dados/chat_id.txt ou TELEGRAM_CHAT_ID).
 """
 import os
 import random
+import subprocess
 import sys
+import time
 import unicodedata
 
 import enviar as bot
@@ -22,7 +25,7 @@ AJUDA = ("🤖 <b>Comandos do @Meupcba_bot</b>\n\n"
          "• <b>estudo</b>: 5 questões inéditas comentadas\n"
          "• <b>discursiva</b>: uma discursiva com correção\n"
          "• <b>ajuda</b>: esta mensagem\n\n"
-         "Respondo em alguns minutos (confiro as mensagens a cada 5 min). "
+         "Respondo em segundos (em raros momentos de troca do servidor, pode levar alguns minutos). "
          "Não envio nada sozinho: as questões só chegam quando você pede.")
 
 
@@ -83,7 +86,9 @@ def main():
 
     estado = bot.ler_estado()
     offset = estado.get("offset", 0)
-    dados = bot.api_get(token, f"getUpdates?offset={offset}&timeout=0&allowed_updates=%5B%22message%22%5D")
+    espera = int(os.getenv("ESPERA_TELEGRAM", "0"))
+    dados = bot.api_get(token, f"getUpdates?offset={offset}&timeout={espera}&allowed_updates=%5B%22message%22%5D",
+                        timeout=espera + 15)
     pedidos = []
     recebidas = len(dados.get("result", []))
     for upd in dados.get("result", []):
@@ -104,6 +109,8 @@ def main():
 
     if not pedidos:
         bot.salvar_estado(estado)
+        if recebidas:
+            publicar_estado()
         print(f"Nenhum pedido novo ({recebidas} mensagens lidas).")
         if os.getenv("GITHUB_EVENT_NAME") == "workflow_dispatch":
             info = bot.api_get(token, "getWebhookInfo").get("result", {})
@@ -149,12 +156,42 @@ def main():
         bot.salvar_estado(estado)
     bot.salvar_estado(estado)
     bot.registrar(f"responder OK: {recebidas} mensagens lidas; atendidos: {', '.join(feitos)}")
+    publicar_estado()
     print("Atendidos:", ", ".join(feitos))
+
+
+def publicar_estado():
+    """No GitHub Actions, grava o estado no repositório logo após cada atendimento."""
+    if os.getenv("GITHUB_ACTIONS") != "true":
+        return
+    cmds = ["git add dados",
+            "git diff --cached --quiet -- dados || "
+            "(git -c user.name=pcba-bot -c user.email=pcba-bot@users.noreply.github.com "
+            "commit -q -m 'Estado do @Meupcba_bot' && git pull -q --rebase origin main && git push -q)"]
+    for c in cmds:
+        subprocess.run(c, shell=True, cwd=bot.BASE, check=False)
+
+
+def escutar(minutos):
+    """Repete o atendimento com long polling até completar 'minutos'."""
+    os.environ.setdefault("ESPERA_TELEGRAM", "50")
+    fim = time.time() + minutos * 60
+    while time.time() < fim:
+        try:
+            main()
+        except SystemExit:
+            raise
+        except Exception as erro:  # noqa: BLE001  (queda de rede etc.: tenta de novo)
+            print(f"falha temporária: {erro}")
+            time.sleep(10)
 
 
 if __name__ == "__main__":
     try:
-        main()
+        if "--escutar" in sys.argv:
+            escutar(float(sys.argv[sys.argv.index("--escutar") + 1]))
+        else:
+            main()
     except SystemExit as fim:
         if fim.code not in (None, 0):
             bot.registrar(f"ERRO (responder): {fim.code}")

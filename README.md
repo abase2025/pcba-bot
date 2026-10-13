@@ -1,6 +1,6 @@
 # @Meupcba_bot – questões da PC-BA 2026 no Telegram, quando você pede
 
-**O bot só envia quando você pede.** Mande **estudo** para o @Meupcba_bot e ele responde em poucos minutos com 5 questões inéditas. Cada pacote traz:
+**O bot só envia quando você pede.** Mande **estudo** para o @Meupcba_bot e ele responde em segundos com 5 questões inéditas. Cada pacote traz:
 
 1. **Abertura**: contagem regressiva para a prova (06/12/2026) e uma dica de estratégia de prova.
 2. **5 questões** no estilo do Instituto AOCP (5 alternativas). Cada uma vem com:
@@ -13,7 +13,7 @@ Mande **discursiva** para receber uma discursiva no formato da prova, com o que 
 - 86 questões objetivas inéditas, com o peso de cada matéria do edital. Inclui Legislação da Bahia (Leis 6.677/94 e 11.370/09, com situações que já caíram em provas anteriores), Atualidades até outubro de 2026, Penal, Processo Penal, Legislação Extravagante, Português, RLM, Informática, Constitucional, Administrativo, Medicina Legal, Igualdade Racial, Estatística, Arquivologia e Contabilidade.
 - 8 discursivas com padrão de resposta.
 
-**Comandos:** **estudo** envia 5 questões inéditas (que você ainda não recebeu); **discursiva** envia uma discursiva com correção; **ajuda** lista os comandos. O bot confere as mensagens a cada 5 minutos, então a resposta chega em cerca de 5 a 15 minutos. O envio automático diário está desligado.
+**Comandos:** **estudo** envia 5 questões inéditas (que você ainda não recebeu); **discursiva** envia uma discursiva com correção; **ajuda** lista os comandos. O bot fica escutando continuamente e responde em segundos (na troca de turno do servidor, a cada ~5h30, pode levar alguns minutos). O envio automático diário está desligado.
 
 Quando o banco acaba, ele recomeça como **ciclo de revisão**, com as alternativas embaralhadas.
 

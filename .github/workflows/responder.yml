@@ -1,8 +1,11 @@
 name: Responder pedidos (@Meupcba_bot)
 
+# Cada execução fica escutando o Telegram por ~5h30 e responde em segundos.
+# O agendamento a cada 30 min garante que a próxima execução já esteja na fila
+# quando a anterior terminar (o grupo de concorrência impede duas ao mesmo tempo).
 on:
   schedule:
-    - cron: "*/5 * * * *"   # confere mensagens a cada 5 minutos
+    - cron: "*/30 * * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -15,18 +18,18 @@ concurrency:
 jobs:
   responder:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Ler mensagens e responder
+      - name: Escutar e responder
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           CARGO: ${{ vars.CARGO || 'ambos' }}
-        run: python responder.py
+        run: python responder.py --escutar 330
       - name: Guardar estado
         if: always()
         run: |

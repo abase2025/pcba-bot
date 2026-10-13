@@ -231,8 +231,8 @@ def enviar_questao(tg, n, q, ciclo):
 ARQ_CHAT = BASE / "dados" / "chat_id.txt"
 
 
-def api_get(token, metodo):
-    with urllib.request.urlopen(f"https://api.telegram.org/bot{token}/{metodo}", timeout=30) as r:
+def api_get(token, metodo, timeout=30):
+    with urllib.request.urlopen(f"https://api.telegram.org/bot{token}/{metodo}", timeout=timeout) as r:
         return json.loads(r.read())
 
 
